@@ -19,6 +19,11 @@ list_lock = Lock()
 write_lock = Lock()
 
 
+with open("configuration.xml", "w") as fp:
+    pass
+xml_path = os.path.dirname(os.path.realpath(__file__)) + "\configuration.xml"
+print(xml_path)
+
 # This function helps to process SSH command and resuts the stdout content
 def execute_command(ssh, command):
     (stdin, stdout, stderr) = ssh.exec_command(command)
@@ -39,6 +44,21 @@ def handle_host(host):
         channel.setblocking(1)
         channel.settimeout(30)
 
+        # Init SCP
+        scp = SCPClient(transport)
+        print "init ok"
+        # Read machine config
+        scp.get('/usr/lib/evodriver/bin/EVOlocal/config/configuration.xml', xml_path)
+        print "data read"
+        doc = minidom.parse(xml_path)
+        print "data parsed"
+
+        # Parse file
+        dispensers = doc.getElementsByTagName('DISPENSER')
+
+        # In case it's frontdesk, there is nothing to do
+        if len(dispensers) == 0:
+            raise ValueError('Invalid dispenser file')
 
         pos_databases = [
             "main_ppg_be.db", "main_coloris_gamma_nl.db", "main_akzo_nl.db",
@@ -48,10 +68,38 @@ def handle_host(host):
 
         if (("main_coloris_gamma_nl.db" and "main_akzo_nl.db") in dir_content) and ("main_ppg_be.db" not in dir_content):
             #Akzo
-            print("Akzo")
+            with open(xml_path, "w") as f:
+
+                for colorant in doc.getElementsByTagName('COLORANT'):
+                    for canister in colorant.getElementsByTagName('CANISTER'):
+                        if canister.attributes['max_q'].value == "1500":
+                            canister.attributes['res_w'].value = "400.0000"
+                            canister.attributes['res_q'].value = "300.0000"
+                        for circuit in canister.getElementsByTagName('CIRCUIT'):
+                            for motors in circuit.getElementsByTagName('MOTORS'):
+                                for motor in motors.getElementsByTagName('MOTOR'):
+                                    try:
+                                        motor.attributes['pause'].value = "5400"
+                                        motor.attributes['activity'].value = "60"
+                                    except Exception as e:
+                                        print e
+                f.write(doc.toxml())
         else:
             #PPG
-            print("PPG")
+            with open(xml_path, "w") as f:
+
+                for colorant in doc.getElementsByTagName('COLORANT'):
+                    colorants_to_change = ["W-83", "W-73", "W-72", "W-84"]
+                    if colorant.attributes['code'].value in colorants_to_change:
+                        for canister in colorant.getElementsByTagName('CANISTER'):
+                            for circuit in canister.getElementsByTagName('CIRCUIT'):
+                                for motors in circuit.getElementsByTagName('MOTORS'):
+                                    for motor in motors.getElementsByTagName('MOTOR'):
+                                        try:
+                                            motor.attributes['policy'].value = "0"
+                                        except Exception as e:
+                                            print e
+                f.write(doc.toxml())
 
 
     except Exception as e:
