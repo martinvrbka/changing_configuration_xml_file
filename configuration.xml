@@ -1,0 +1,1070 @@
+<?xml version="1.0" ?><CONFIGURATION creation_ts="2019-11-20T22:10:22" last_modification_ts="2021-11-25T15:36:07" version="1.0.4">
+ <DISPENSERS>
+  <DISPENSER INV_type="2" RCS_process_pause="60" RCS_processes="0" conf_flags="0" conf_structure_name="4043418" connectivity="2" creation_ts="2018-10-24T15:30:10" default="true" description="MT-EVST-C2-0D-E1S32-I3s-P0H0-AOS-01-00VE" enabled="true" id="1" initial_WM="1" model="EVOFLX-LW [ST]" modules_id="1,2,3,4" post_tinting_time="30" power_off_delay="5" power_supply="200" product_code="105927 - RDC2019-0003" recirculating_parallelism="1" segment="ST" serial_number="S19N0028" sid="]H@zYxfDp8" stirring_parallelism="1" tag="3McnxoVXQv" technology="E5G" tinting_parallelism="2" turntable_tinting_mode="0" uid="5WPRZ08K9bcZKnhzyxw1">
+   <SERIAL_PORT baudrate="BAUD115200" clear_before_write="false" connection_type="SERIAL_CONN" data_bit="DATA_8" first_write_delay="0" flow_control="FLOW_OFF" parity="PAR_NONE" port_name="ttyUSB0" read_retries="3" read_retries_interval="100" read_timeout="300" stop_bit="STOP_1" write_read_interval="50" write_retries="3" write_retries_interval="100" write_timeout="300"/>
+   <DEVICES>
+    <DEVICE can_presence_sensor_high="500" door="false" enabled="true" id="1" model="SHELF" move_offset="50" puncher="false" punching_sensor_high="650" punching_speed="50" punching_tolerance="35" resolution="5" type="3"/>
+    <DEVICE automatic_closure="true" closing_delay="3" closing_timeout="4" enabled="true" id="0" model="AUTOCAP" movement_speed="60" movement_type="1" opening_timeout="4" power_off_delay="10" type="5" working_mode="2"/>
+    <DEVICE can_presence_check="1" can_presence_status="1" enabled="true" id="2" model="CAN_PRESENCE_SENSOR" type="1"/>
+    <DEVICE easy_on_time="15" enabled="true" id="6" model="OFFLINE"/>
+   </DEVICES>
+   <LAYOUT>&quot;
+
+    <COLORANT code="W-77" description="W-77" hex_value="#f7f700" id="1" min_sim_disp_thr="2.0000" sim_dispensing="true" spec_w="1230" system_colorant_id="1" system_descr="0.00  Minimal GData" system_id="1544522460">
+     <CANISTER barcode="" cur_q="1809.7494" custom_spec_w="0" enabled="true" id="1" layout_positions_id="132" max_q="2500" res_q="300.0000" res_w="500.0000">
+      <CIRCUIT enabled="true" id="1" position_id="132" wire_board_id="68" wire_connector_id="2">
+       <MOTORS>
+        <MOTOR activation_mode="1" default_profile="false" description="Bellows I_PPG" dispensing_algorithm="1" enabled="true" id="114" inter_disp_time="0.0" max_speed="100" max_speed_limit="100" max_user_speed="100" pre_erogation_time="0" profile_UID="@runuGDD`?" pump_size="2" pump_type="10" resolution="5" serial_number="?y4aSo5MU+qW2yuKOjLcFG5cSXrMPqLcSp1oJrH7FluKOjLcFDe0F4bMRpbcUbvJCyy2HfrsSffNP+qW2yC4RrD7Tb9dFDe0FE5MRbv3JM1oGlrMRXv6PWC5ToLtOqLdSbnpBE5MRbvJ3AmZJrrMHiHtS+83FluKTjL4RqDdFDe0FJHdSfvsP+qW2yuKOjLcF3zMRj5cRanpBE5MRbvJ3AmZLXncFKLsSq1YJrrcOb97FlOLOivJ3AmpBJHdSfvsP+qW2yC5TobcRdvJ3AmZJXrMP+0LOo5MRbHNPonpBE5MRbvJ3AmZLXncFIHqGo0JCvy5Cm0pCyyYLXncFDe0FlC5TobcRdvJ3AmpB3nMTpHNPovJ3AmpB19dSXbdFDe0" suction_erogation_delay="0" suction_speed="100" supplying_current="8" theoretical_mpx="640" tinting_threshold="4.0000" type="DOSING_MOTOR" version="1.0" zero_pump="false">
+         <CALIBRATIONS>
+          <CALIBRATION calib_spec_w="1230" creation_ts="2019-01-14T11:32:20" enabled="true" host_name="" id="1" last_modification_ts="2019-01-17T15:45:09" rendering="3" type="0" uid="j9DLFdium9">
+           <CAL_TABLE calib_speed="20" change_volume="0.0000" id="1" speed="20">
+            <CAL_POINT disp_quantity="0.0770" disp_steps="36" disp_time="9423" execution_order="11" id="1" repetitions="4" target_quantity="0.0770" target_steps="0" target_type="CC" tolerance="10" use_from="3" use_to="2"/>
+            <CAL_POINT disp_quantity="0.1500" disp_steps="74" disp_time="9396" execution_order="10" id="2" repetitions="4" target_quantity="0.1500" target_steps="0" target_type="CC" tolerance="10" use_from="4" use_to="3"/>
+            <CAL_POINT disp_quantity="0.3000" disp_steps="161" disp_time="9604" execution_order="9" id="3" repetitions="4" target_quantity="0.3000" target_steps="0" target_type="CC" tolerance="10" use_from="5" use_to="4"/>
+            <CAL_POINT disp_quantity="0.7700" disp_steps="453" disp_time="9544" execution_order="8" id="4" repetitions="2" target_quantity="0.7700" target_steps="0" target_type="CC" tolerance="10" use_from="6" use_to="5"/>
+            <CAL_POINT disp_quantity="1.5000" disp_steps="909" disp_time="9513" execution_order="7" id="5" repetitions="2" target_quantity="1.5000" target_steps="0" target_type="CC" tolerance="10" use_from="8" use_to="6"/>
+            <CAL_POINT disp_quantity="3.0000" disp_steps="1850" disp_time="9704" execution_order="6" id="6" repetitions="2" target_quantity="3.0000" target_steps="0" target_type="CC" tolerance="10" use_from="8" use_to="7"/>
+           </CAL_TABLE>
+           <CAL_TABLE calib_speed="100" change_volume="3.1703" id="2" speed="100">
+            <CAL_POINT disp_quantity="3.1978" disp_steps="2000" disp_time="3717" execution_order="5" id="7" repetitions="2" target_quantity="0.0000" target_steps="2000" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="10.1519" disp_steps="6400" disp_time="3753" execution_order="4" id="8" repetitions="2" target_quantity="0.0000" target_steps="6400" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="10.8604" disp_steps="7000" disp_time="6087" execution_order="3" id="9" repetitions="2" target_quantity="0.0000" target_steps="7000" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="20.0387" disp_steps="12800" disp_time="6026" execution_order="2" id="10" repetitions="2" target_quantity="0.0000" target_steps="12800" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="64.4465" disp_steps="41600" disp_time="17567" execution_order="1" id="11" repetitions="2" target_quantity="0.0000" target_steps="41600" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+           </CAL_TABLE>
+          </CALIBRATION>
+         </CALIBRATIONS>
+        </MOTOR>
+        <MOTOR activity="60" enabled="true" id="1" pause="5400" policy="0" resolution="2" speed="100" supplying_current="8" type="STIRRING_MOTOR" wire_board_id="0" wire_connectors_id="0"/>
+        <MOTOR activity="60" enabled="true" id="1" pause="5400" resolution="5" speed="50" suction_speed="75" supplying_current="8" type="RECIRCULATING_MOTOR"/>
+       </MOTORS>
+       <VALVES>
+        <VALVE board_id="55" id="2" valve_type="5"/>
+       </VALVES>
+      </CIRCUIT>
+     </CANISTER>
+    </COLORANT>
+    <COLORANT code="W-87" description="W-87" hex_value="#b8420b" id="2" min_sim_disp_thr="2.0000" sim_dispensing="true" spec_w="1830" system_colorant_id="2" system_descr="0.00  Minimal GData" system_id="1544522460">
+     <CANISTER barcode="" cur_q="1678.0364" custom_spec_w="0" enabled="true" id="2" layout_positions_id="134" max_q="2500" res_q="300.0000" res_w="500.0000">
+      <CIRCUIT enabled="true" id="2" position_id="134" wire_board_id="68" wire_connector_id="4">
+       <MOTORS>
+        <MOTOR activation_mode="1" default_profile="false" description="Bellows I_PPG" dispensing_algorithm="1" enabled="true" id="114" inter_disp_time="0.0" max_speed="100" max_speed_limit="100" max_user_speed="100" pre_erogation_time="0" profile_UID="@runuGDD`?" pump_size="2" pump_type="10" resolution="5" serial_number="?y4aSo5MU+qW2yuKOjLcFG5cSXrMPqLcSp1oJrH7FluKOjLcFDe0F4bMRpbcUbvJCyy2HfrsSffNP+qW2yC4RrD7Tb9dFDe0FE5MRbv3JM1oGlrMRXv6PWC5ToLtOqLdSbnpBE5MRbvJ3AmZJrrMHiHtS+83FluKTjL4RqDdFDe0FJHdSfvsP+qW2yuKOjLcF3zMRj5cRanpBE5MRbvJ3AmZLXncFKLsSq1YJrrcOb97FlOLOivJ3AmpBJHdSfvsP+qW2yC5TobcRdvJ3AmZJXrMP+0LOo5MRbHNPonpBE5MRbvJ3AmZLXncFIHqGo0JCvy5Cm0pCyyYLXncFDe0FlC5TobcRdvJ3AmpB3nMTpHNPovJ3AmpB19dSXbdFDe0" suction_erogation_delay="0" suction_speed="100" supplying_current="8" theoretical_mpx="640" tinting_threshold="4.0000" type="DOSING_MOTOR" version="1.0" zero_pump="false">
+         <CALIBRATIONS>
+          <CALIBRATION calib_spec_w="1830" creation_ts="2019-01-14T12:47:46" enabled="true" host_name="" id="1" last_modification_ts="2019-01-17T15:45:09" rendering="3" type="0" uid="kwX4p7GND8">
+           <CAL_TABLE calib_speed="20" change_volume="0.0000" id="1" speed="20">
+            <CAL_POINT disp_quantity="0.0770" disp_steps="42" disp_time="9585" execution_order="11" id="1" repetitions="4" target_quantity="0.0770" target_steps="0" target_type="CC" tolerance="10" use_from="3" use_to="2"/>
+            <CAL_POINT disp_quantity="0.1500" disp_steps="82" disp_time="9635" execution_order="10" id="2" repetitions="4" target_quantity="0.1500" target_steps="0" target_type="CC" tolerance="10" use_from="4" use_to="3"/>
+            <CAL_POINT disp_quantity="0.3000" disp_steps="170" disp_time="9553" execution_order="9" id="3" repetitions="4" target_quantity="0.3000" target_steps="0" target_type="CC" tolerance="10" use_from="5" use_to="4"/>
+            <CAL_POINT disp_quantity="0.7700" disp_steps="456" disp_time="9587" execution_order="8" id="4" repetitions="2" target_quantity="0.7700" target_steps="0" target_type="CC" tolerance="10" use_from="6" use_to="5"/>
+            <CAL_POINT disp_quantity="1.5000" disp_steps="904" disp_time="9420" execution_order="7" id="5" repetitions="2" target_quantity="1.5000" target_steps="0" target_type="CC" tolerance="10" use_from="8" use_to="6"/>
+            <CAL_POINT disp_quantity="3.0000" disp_steps="1828" disp_time="9528" execution_order="6" id="6" repetitions="2" target_quantity="3.0000" target_steps="0" target_type="CC" tolerance="10" use_from="8" use_to="7"/>
+           </CAL_TABLE>
+           <CAL_TABLE calib_speed="100" change_volume="3.2385" id="2" speed="100">
+            <CAL_POINT disp_quantity="3.2479" disp_steps="2000" disp_time="3813" execution_order="5" id="7" repetitions="2" target_quantity="0.0000" target_steps="2000" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="10.3214" disp_steps="6400" disp_time="3854" execution_order="4" id="8" repetitions="2" target_quantity="0.0000" target_steps="6400" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="11.0291" disp_steps="7000" disp_time="6057" execution_order="3" id="9" repetitions="2" target_quantity="0.0000" target_steps="7000" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="20.3914" disp_steps="12800" disp_time="5940" execution_order="2" id="10" repetitions="2" target_quantity="0.0000" target_steps="12800" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="65.6556" disp_steps="41600" disp_time="17595" execution_order="1" id="11" repetitions="2" target_quantity="0.0000" target_steps="41600" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+           </CAL_TABLE>
+          </CALIBRATION>
+         </CALIBRATIONS>
+        </MOTOR>
+        <MOTOR activity="60" enabled="true" id="1" pause="5400" policy="0" resolution="2" speed="100" supplying_current="8" type="STIRRING_MOTOR" wire_board_id="0" wire_connectors_id="0"/>
+        <MOTOR activity="60" enabled="true" id="1" pause="5400" resolution="5" speed="50" suction_speed="75" supplying_current="8" type="RECIRCULATING_MOTOR"/>
+       </MOTORS>
+       <VALVES>
+        <VALVE board_id="55" id="4" valve_type="5"/>
+       </VALVES>
+      </CIRCUIT>
+     </CANISTER>
+    </COLORANT>
+    <COLORANT code="W-78" description="W-78" hex_value="#000005" id="5" min_sim_disp_thr="2.0000" sim_dispensing="true" spec_w="1272" system_colorant_id="3" system_descr="0.00  Minimal GData" system_id="1544522460">
+     <CANISTER barcode="" cur_q="2690.8908" custom_spec_w="0" enabled="true" id="3" layout_positions_id="131,136" max_q="5000" res_q="750.0000" res_w="1000.0000">
+      <CIRCUIT enabled="true" id="11" position_id="131" wire_board_id="68" wire_connector_id="1">
+       <MOTORS>
+        <MOTOR activation_mode="1" default_profile="false" description="Bellows I_PPG" dispensing_algorithm="1" enabled="true" id="114" inter_disp_time="0.0" max_speed="100" max_speed_limit="100" max_user_speed="100" pre_erogation_time="0" profile_UID="@runuGDD`?" pump_size="2" pump_type="10" resolution="5" serial_number="?y4aSo5MU+qW2yuKOjLcFG5cSXrMPqLcSp1oJrH7FluKOjLcFDe0F4bMRpbcUbvJCyy2HfrsSffNP+qW2yC4RrD7Tb9dFDe0FE5MRbv3JM1oGlrMRXv6PWC5ToLtOqLdSbnpBE5MRbvJ3AmZJrrMHiHtS+83FluKTjL4RqDdFDe0FJHdSfvsP+qW2yuKOjLcF3zMRj5cRanpBE5MRbvJ3AmZLXncFKLsSq1YJrrcOb97FlOLOivJ3AmpBJHdSfvsP+qW2yC5TobcRdvJ3AmZJXrMP+0LOo5MRbHNPonpBE5MRbvJ3AmZLXncFIHqGo0JCvy5Cm0pCyyYLXncFDe0FlC5TobcRdvJ3AmpB3nMTpHNPovJ3AmpB19dSXbdFDe0" suction_erogation_delay="0" suction_speed="100" supplying_current="8" theoretical_mpx="640" tinting_threshold="4.0000" type="DOSING_MOTOR" version="1.0" zero_pump="false">
+         <CALIBRATIONS>
+          <CALIBRATION calib_spec_w="1272" creation_ts="2019-01-14T13:14:47" enabled="true" host_name="" id="1" last_modification_ts="2019-01-17T15:45:09" rendering="3" type="0" uid="BGPIHZbTna">
+           <CAL_TABLE calib_speed="20" change_volume="0.0000" id="1" speed="20">
+            <CAL_POINT disp_quantity="0.0770" disp_steps="48" disp_time="9453" execution_order="11" id="1" repetitions="4" target_quantity="0.0770" target_steps="0" target_type="CC" tolerance="10" use_from="3" use_to="2"/>
+            <CAL_POINT disp_quantity="0.1500" disp_steps="90" disp_time="9477" execution_order="10" id="2" repetitions="4" target_quantity="0.1500" target_steps="0" target_type="CC" tolerance="10" use_from="4" use_to="3"/>
+            <CAL_POINT disp_quantity="0.3000" disp_steps="179" disp_time="9453" execution_order="9" id="3" repetitions="4" target_quantity="0.3000" target_steps="0" target_type="CC" tolerance="10" use_from="5" use_to="4"/>
+            <CAL_POINT disp_quantity="0.7700" disp_steps="468" disp_time="9504" execution_order="8" id="4" repetitions="2" target_quantity="0.7700" target_steps="0" target_type="CC" tolerance="10" use_from="6" use_to="5"/>
+            <CAL_POINT disp_quantity="1.5000" disp_steps="919" disp_time="9485" execution_order="7" id="5" repetitions="2" target_quantity="1.5000" target_steps="0" target_type="CC" tolerance="10" use_from="8" use_to="6"/>
+            <CAL_POINT disp_quantity="3.0000" disp_steps="1849" disp_time="9449" execution_order="6" id="6" repetitions="2" target_quantity="3.0000" target_steps="0" target_type="CC" tolerance="10" use_from="8" use_to="7"/>
+           </CAL_TABLE>
+           <CAL_TABLE calib_speed="100" change_volume="3.1427" id="2" speed="100">
+            <CAL_POINT disp_quantity="3.1781" disp_steps="2000" disp_time="3686" execution_order="5" id="7" repetitions="2" target_quantity="0.0000" target_steps="2000" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="10.2041" disp_steps="6400" disp_time="3765" execution_order="4" id="8" repetitions="2" target_quantity="0.0000" target_steps="6400" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="10.9196" disp_steps="7000" disp_time="6145" execution_order="3" id="9" repetitions="2" target_quantity="0.0000" target_steps="7000" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="20.1944" disp_steps="12800" disp_time="5970" execution_order="2" id="10" repetitions="2" target_quantity="0.0000" target_steps="12800" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="65.0751" disp_steps="41600" disp_time="17472" execution_order="1" id="11" repetitions="2" target_quantity="0.0000" target_steps="41600" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+           </CAL_TABLE>
+          </CALIBRATION>
+         </CALIBRATIONS>
+        </MOTOR>
+        <MOTOR activity="60" enabled="true" id="1" pause="5400" policy="0" resolution="2" speed="100" supplying_current="8" type="STIRRING_MOTOR" wire_board_id="0" wire_connectors_id="0"/>
+        <MOTOR activity="60" enabled="true" id="1" pause="5400" resolution="5" speed="50" suction_speed="75" supplying_current="8" type="RECIRCULATING_MOTOR"/>
+       </MOTORS>
+       <VALVES>
+        <VALVE board_id="55" id="1" valve_type="5"/>
+       </VALVES>
+      </CIRCUIT>
+     </CANISTER>
+    </COLORANT>
+    <COLORANT code="W-90" description="W-90" hex_value="#f7f700" id="6" min_sim_disp_thr="2.0000" sim_dispensing="true" spec_w="1266" system_colorant_id="6" system_descr="0.00  Minimal GData" system_id="1544522460">
+     <CANISTER barcode="" cur_q="938.7685" custom_spec_w="0" enabled="true" id="6" layout_positions_id="113" max_q="1500" res_q="300.0000" res_w="400.0000">
+      <CIRCUIT enabled="true" id="5" position_id="113" wire_board_id="66" wire_connector_id="3">
+       <MOTORS>
+        <MOTOR activation_mode="1" default_profile="false" description="Bellows I_PPG" dispensing_algorithm="1" enabled="true" id="114" inter_disp_time="0.0" max_speed="100" max_speed_limit="100" max_user_speed="100" pre_erogation_time="0" profile_UID="@runuGDD`?" pump_size="2" pump_type="10" resolution="5" serial_number="?y4aSo5MU+qW2yuKOjLcFG5cSXrMPqLcSp1oJrH7FluKOjLcFDe0F4bMRpbcUbvJCyy2HfrsSffNP+qW2yC4RrD7Tb9dFDe0FE5MRbv3JM1oGlrMRXv6PWC5ToLtOqLdSbnpBE5MRbvJ3AmZJrrMHiHtS+83FluKTjL4RqDdFDe0FJHdSfvsP+qW2yuKOjLcF3zMRj5cRanpBE5MRbvJ3AmZLXncFKLsSq1YJrrcOb97FlOLOivJ3AmpBJHdSfvsP+qW2yC5TobcRdvJ3AmZJXrMP+0LOo5MRbHNPonpBE5MRbvJ3AmZLXncFIHqGo0JCvy5Cm0pCyyYLXncFDe0FlC5TobcRdvJ3AmpB3nMTpHNPovJ3AmpB19dSXbdFDe0" suction_erogation_delay="0" suction_speed="100" supplying_current="8" theoretical_mpx="640" tinting_threshold="4.0000" type="DOSING_MOTOR" version="1.0" zero_pump="false">
+         <CALIBRATIONS>
+          <CALIBRATION calib_spec_w="1266" creation_ts="2019-01-14T14:20:11" enabled="true" host_name="" id="1" last_modification_ts="2019-01-17T15:45:09" rendering="3" type="0" uid="aVH0Gpepgc">
+           <CAL_TABLE calib_speed="20" change_volume="0.0000" id="1" speed="20">
+            <CAL_POINT disp_quantity="0.0770" disp_steps="32" disp_time="9560" execution_order="11" id="1" repetitions="4" target_quantity="0.0770" target_steps="0" target_type="CC" tolerance="10" use_from="3" use_to="2"/>
+            <CAL_POINT disp_quantity="0.1500" disp_steps="62" disp_time="9564" execution_order="10" id="2" repetitions="4" target_quantity="0.1500" target_steps="0" target_type="CC" tolerance="10" use_from="4" use_to="3"/>
+            <CAL_POINT disp_quantity="0.3000" disp_steps="137" disp_time="9575" execution_order="9" id="3" repetitions="4" target_quantity="0.3000" target_steps="0" target_type="CC" tolerance="10" use_from="5" use_to="4"/>
+            <CAL_POINT disp_quantity="0.7700" disp_steps="415" disp_time="9431" execution_order="8" id="4" repetitions="2" target_quantity="0.7700" target_steps="0" target_type="CC" tolerance="10" use_from="6" use_to="5"/>
+            <CAL_POINT disp_quantity="1.5000" disp_steps="860" disp_time="9446" execution_order="7" id="5" repetitions="2" target_quantity="1.5000" target_steps="0" target_type="CC" tolerance="10" use_from="8" use_to="6"/>
+            <CAL_POINT disp_quantity="3.0000" disp_steps="1773" disp_time="9450" execution_order="6" id="6" repetitions="2" target_quantity="3.0000" target_steps="0" target_type="CC" tolerance="10" use_from="8" use_to="7"/>
+           </CAL_TABLE>
+           <CAL_TABLE calib_speed="100" change_volume="3.2836" id="2" speed="100">
+            <CAL_POINT disp_quantity="3.3291" disp_steps="2000" disp_time="3601" execution_order="5" id="7" repetitions="2" target_quantity="0.0000" target_steps="2000" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="10.5444" disp_steps="6400" disp_time="3651" execution_order="4" id="8" repetitions="2" target_quantity="0.0000" target_steps="6400" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="11.2056" disp_steps="7000" disp_time="6014" execution_order="3" id="9" repetitions="2" target_quantity="0.0000" target_steps="7000" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="20.7506" disp_steps="12800" disp_time="6158" execution_order="2" id="10" repetitions="2" target_quantity="0.0000" target_steps="12800" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="66.4985" disp_steps="41600" disp_time="17587" execution_order="1" id="11" repetitions="2" target_quantity="0.0000" target_steps="41600" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+           </CAL_TABLE>
+          </CALIBRATION>
+         </CALIBRATIONS>
+        </MOTOR>
+        <MOTOR activity="60" enabled="true" id="1" pause="5400" policy="0" resolution="2" speed="100" supplying_current="8" type="STIRRING_MOTOR" wire_board_id="0" wire_connectors_id="0"/>
+        <MOTOR activity="60" enabled="true" id="1" pause="5400" resolution="5" speed="50" suction_speed="75" supplying_current="8" type="RECIRCULATING_MOTOR"/>
+       </MOTORS>
+       <VALVES>
+        <VALVE board_id="54" id="3" valve_type="5"/>
+       </VALVES>
+      </CIRCUIT>
+     </CANISTER>
+    </COLORANT>
+    <COLORANT code="W-40" description="W-40" hex_value="#ff2f21" id="7" min_sim_disp_thr="2.0000" sim_dispensing="true" spec_w="1320" system_colorant_id="7" system_descr="0.00  Minimal GData" system_id="1544522460">
+     <CANISTER barcode="" cur_q="950.0000" custom_spec_w="0" enabled="true" id="7" layout_positions_id="114" max_q="1500" res_q="300.0000" res_w="400.0000">
+      <CIRCUIT enabled="true" id="6" position_id="114" wire_board_id="66" wire_connector_id="4">
+       <MOTORS>
+        <MOTOR activation_mode="1" default_profile="false" description="Bellows I_PPG" dispensing_algorithm="1" enabled="true" id="114" inter_disp_time="0.0" max_speed="100" max_speed_limit="100" max_user_speed="100" pre_erogation_time="0" profile_UID="@runuGDD`?" pump_size="2" pump_type="10" resolution="5" serial_number="?y4aSo5MU+qW2yuKOjLcFG5cSXrMPqLcSp1oJrH7FluKOjLcFDe0F4bMRpbcUbvJCyy2HfrsSffNP+qW2yC4RrD7Tb9dFDe0FE5MRbv3JM1oGlrMRXv6PWC5ToLtOqLdSbnpBE5MRbvJ3AmZJrrMHiHtS+83FluKTjL4RqDdFDe0FJHdSfvsP+qW2yuKOjLcF3zMRj5cRanpBE5MRbvJ3AmZLXncFKLsSq1YJrrcOb97FlOLOivJ3AmpBJHdSfvsP+qW2yC5TobcRdvJ3AmZJXrMP+0LOo5MRbHNPonpBE5MRbvJ3AmZLXncFIHqGo0JCvy5Cm0pCyyYLXncFDe0FlC5TobcRdvJ3AmpB3nMTpHNPovJ3AmpB19dSXbdFDe0" suction_erogation_delay="0" suction_speed="100" supplying_current="8" theoretical_mpx="640" tinting_threshold="4.0000" type="DOSING_MOTOR" version="1.0" zero_pump="false">
+         <CALIBRATIONS>
+          <CALIBRATION calib_spec_w="1320" creation_ts="2019-01-14T13:51:07" enabled="true" host_name="" id="1" last_modification_ts="2019-01-17T15:45:09" rendering="3" type="0" uid="NQIzresmQG">
+           <CAL_TABLE calib_speed="20" change_volume="0.0000" id="1" speed="20">
+            <CAL_POINT disp_quantity="0.0770" disp_steps="38" disp_time="9638" execution_order="11" id="1" repetitions="4" target_quantity="0.0770" target_steps="0" target_type="CC" tolerance="10" use_from="3" use_to="2"/>
+            <CAL_POINT disp_quantity="0.1500" disp_steps="73" disp_time="9421" execution_order="10" id="2" repetitions="4" target_quantity="0.1500" target_steps="0" target_type="CC" tolerance="10" use_from="4" use_to="3"/>
+            <CAL_POINT disp_quantity="0.3000" disp_steps="155" disp_time="9536" execution_order="9" id="3" repetitions="4" target_quantity="0.3000" target_steps="0" target_type="CC" tolerance="10" use_from="5" use_to="4"/>
+            <CAL_POINT disp_quantity="0.7700" disp_steps="445" disp_time="9595" execution_order="8" id="4" repetitions="2" target_quantity="0.7700" target_steps="0" target_type="CC" tolerance="10" use_from="6" use_to="5"/>
+            <CAL_POINT disp_quantity="1.5000" disp_steps="903" disp_time="9527" execution_order="7" id="5" repetitions="2" target_quantity="1.5000" target_steps="0" target_type="CC" tolerance="10" use_from="8" use_to="6"/>
+            <CAL_POINT disp_quantity="3.0000" disp_steps="1844" disp_time="9586" execution_order="6" id="6" repetitions="2" target_quantity="3.0000" target_steps="0" target_type="CC" tolerance="10" use_from="8" use_to="7"/>
+           </CAL_TABLE>
+           <CAL_TABLE calib_speed="100" change_volume="3.1883" id="2" speed="100">
+            <CAL_POINT disp_quantity="3.2079" disp_steps="2000" disp_time="3721" execution_order="5" id="7" repetitions="2" target_quantity="0.0000" target_steps="2000" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="10.1781" disp_steps="6400" disp_time="3725" execution_order="4" id="8" repetitions="2" target_quantity="0.0000" target_steps="6400" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="10.8365" disp_steps="7000" disp_time="6055" execution_order="3" id="9" repetitions="2" target_quantity="0.0000" target_steps="7000" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="20.0358" disp_steps="12800" disp_time="5974" execution_order="2" id="10" repetitions="2" target_quantity="0.0000" target_steps="12800" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="64.3135" disp_steps="41600" disp_time="17531" execution_order="1" id="11" repetitions="2" target_quantity="0.0000" target_steps="41600" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+           </CAL_TABLE>
+          </CALIBRATION>
+         </CALIBRATIONS>
+        </MOTOR>
+        <MOTOR activity="60" enabled="true" id="1" pause="5400" policy="0" resolution="2" speed="100" supplying_current="8" type="STIRRING_MOTOR" wire_board_id="0" wire_connectors_id="0"/>
+        <MOTOR activity="60" enabled="true" id="1" pause="5400" resolution="5" speed="50" suction_speed="75" supplying_current="8" type="RECIRCULATING_MOTOR"/>
+       </MOTORS>
+       <VALVES>
+        <VALVE board_id="54" id="4" valve_type="5"/>
+       </VALVES>
+      </CIRCUIT>
+     </CANISTER>
+    </COLORANT>
+    <COLORANT code="W-83" description="W-83" hex_value="#8f0000" id="8" min_sim_disp_thr="2.0000" sim_dispensing="true" spec_w="1130" system_colorant_id="8" system_descr="0.00  Minimal GData" system_id="1544522460">
+     <CANISTER barcode="" cur_q="884.2685" custom_spec_w="0" enabled="true" id="8" layout_positions_id="133" max_q="1500" res_q="300.0000" res_w="400.0000">
+      <CIRCUIT enabled="true" id="12" position_id="133" wire_board_id="68" wire_connector_id="3">
+       <MOTORS>
+        <MOTOR activation_mode="1" default_profile="false" description="Bellows I_PPG" dispensing_algorithm="1" enabled="true" id="114" inter_disp_time="0.0" max_speed="100" max_speed_limit="100" max_user_speed="100" pre_erogation_time="0" profile_UID="@runuGDD`?" pump_size="2" pump_type="10" resolution="5" serial_number="?y4aSo5MU+qW2yuKOjLcFG5cSXrMPqLcSp1oJrH7FluKOjLcFDe0F4bMRpbcUbvJCyy2HfrsSffNP+qW2yC4RrD7Tb9dFDe0FE5MRbv3JM1oGlrMRXv6PWC5ToLtOqLdSbnpBE5MRbvJ3AmZJrrMHiHtS+83FluKTjL4RqDdFDe0FJHdSfvsP+qW2yuKOjLcF3zMRj5cRanpBE5MRbvJ3AmZLXncFKLsSq1YJrrcOb97FlOLOivJ3AmpBJHdSfvsP+qW2yC5TobcRdvJ3AmZJXrMP+0LOo5MRbHNPonpBE5MRbvJ3AmZLXncFIHqGo0JCvy5Cm0pCyyYLXncFDe0FlC5TobcRdvJ3AmpB3nMTpHNPovJ3AmpB19dSXbdFDe0" suction_erogation_delay="0" suction_speed="100" supplying_current="8" theoretical_mpx="640" tinting_threshold="4.0000" type="DOSING_MOTOR" version="1.0" zero_pump="false">
+         <CALIBRATIONS>
+          <CALIBRATION calib_spec_w="1130" creation_ts="2019-01-14T16:25:24" enabled="true" host_name="" id="1" last_modification_ts="2019-01-17T15:45:09" rendering="3" type="0" uid="CeWuV5GuCz">
+           <CAL_TABLE calib_speed="20" change_volume="0.0000" id="1" speed="20">
+            <CAL_POINT disp_quantity="0.0770" disp_steps="30" disp_time="9393" execution_order="11" id="1" repetitions="4" target_quantity="0.0770" target_steps="0" target_type="CC" tolerance="10" use_from="3" use_to="2"/>
+            <CAL_POINT disp_quantity="0.1500" disp_steps="59" disp_time="9539" execution_order="10" id="2" repetitions="4" target_quantity="0.1500" target_steps="0" target_type="CC" tolerance="10" use_from="4" use_to="3"/>
+            <CAL_POINT disp_quantity="0.3000" disp_steps="141" disp_time="9501" execution_order="9" id="3" repetitions="4" target_quantity="0.3000" target_steps="0" target_type="CC" tolerance="10" use_from="5" use_to="4"/>
+            <CAL_POINT disp_quantity="0.7700" disp_steps="430" disp_time="9417" execution_order="8" id="4" repetitions="2" target_quantity="0.7700" target_steps="0" target_type="CC" tolerance="10" use_from="6" use_to="5"/>
+            <CAL_POINT disp_quantity="1.5000" disp_steps="892" disp_time="9436" execution_order="7" id="5" repetitions="2" target_quantity="1.5000" target_steps="0" target_type="CC" tolerance="10" use_from="8" use_to="6"/>
+            <CAL_POINT disp_quantity="3.0000" disp_steps="1840" disp_time="9404" execution_order="6" id="6" repetitions="2" target_quantity="3.0000" target_steps="0" target_type="CC" tolerance="10" use_from="8" use_to="7"/>
+           </CAL_TABLE>
+           <CAL_TABLE calib_speed="100" change_volume="3.1743" id="2" speed="100">
+            <CAL_POINT disp_quantity="3.2142" disp_steps="2000" disp_time="3831" execution_order="5" id="7" repetitions="2" target_quantity="0.0000" target_steps="2000" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="10.1311" disp_steps="6400" disp_time="3835" execution_order="4" id="8" repetitions="2" target_quantity="0.0000" target_steps="6400" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="10.7969" disp_steps="7000" disp_time="6104" execution_order="3" id="9" repetitions="2" target_quantity="0.0000" target_steps="7000" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="19.9283" disp_steps="12800" disp_time="5984" execution_order="2" id="10" repetitions="2" target_quantity="0.0000" target_steps="12800" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="63.9789" disp_steps="41600" disp_time="17501" execution_order="1" id="11" repetitions="2" target_quantity="0.0000" target_steps="41600" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+           </CAL_TABLE>
+          </CALIBRATION>
+         </CALIBRATIONS>
+        </MOTOR>
+        <MOTOR activity="60" enabled="true" id="1" pause="5400" policy="0" resolution="2" speed="100" supplying_current="8" type="STIRRING_MOTOR" wire_board_id="0" wire_connectors_id="0"/>
+        <MOTOR activity="60" enabled="true" id="1" pause="5400" resolution="5" speed="50" suction_speed="75" supplying_current="8" type="RECIRCULATING_MOTOR"/>
+       </MOTORS>
+       <VALVES>
+        <VALVE board_id="55" id="3" valve_type="5"/>
+       </VALVES>
+      </CIRCUIT>
+     </CANISTER>
+    </COLORANT>
+    <COLORANT code="W-30" description="W-30" hex_value="#0047d5" id="9" min_sim_disp_thr="2.0000" sim_dispensing="true" spec_w="1374" system_colorant_id="9" system_descr="0.00  Minimal GData" system_id="1544522460">
+     <CANISTER barcode="" cur_q="950.0000" custom_spec_w="0" enabled="true" id="9" layout_positions_id="115" max_q="1500" res_q="300.0000" res_w="400.0000">
+      <CIRCUIT enabled="true" id="7" position_id="115" wire_board_id="66" wire_connector_id="5">
+       <MOTORS>
+        <MOTOR activation_mode="1" default_profile="false" description="Bellows I_PPG" dispensing_algorithm="1" enabled="true" id="114" inter_disp_time="0.0" max_speed="100" max_speed_limit="100" max_user_speed="100" pre_erogation_time="0" profile_UID="@runuGDD`?" pump_size="2" pump_type="10" resolution="5" serial_number="?y4aSo5MU+qW2yuKOjLcFG5cSXrMPqLcSp1oJrH7FluKOjLcFDe0F4bMRpbcUbvJCyy2HfrsSffNP+qW2yC4RrD7Tb9dFDe0FE5MRbv3JM1oGlrMRXv6PWC5ToLtOqLdSbnpBE5MRbvJ3AmZJrrMHiHtS+83FluKTjL4RqDdFDe0FJHdSfvsP+qW2yuKOjLcF3zMRj5cRanpBE5MRbvJ3AmZLXncFKLsSq1YJrrcOb97FlOLOivJ3AmpBJHdSfvsP+qW2yC5TobcRdvJ3AmZJXrMP+0LOo5MRbHNPonpBE5MRbvJ3AmZLXncFIHqGo0JCvy5Cm0pCyyYLXncFDe0FlC5TobcRdvJ3AmpB3nMTpHNPovJ3AmpB19dSXbdFDe0" suction_erogation_delay="0" suction_speed="100" supplying_current="8" theoretical_mpx="640" tinting_threshold="4.0000" type="DOSING_MOTOR" version="1.0" zero_pump="false">
+         <CALIBRATIONS>
+          <CALIBRATION calib_spec_w="1374" creation_ts="2019-01-14T14:43:55" enabled="true" host_name="" id="1" last_modification_ts="2019-01-17T15:45:09" rendering="3" type="0" uid="V22TvCvcEk">
+           <CAL_TABLE calib_speed="20" change_volume="0.0000" id="1" speed="20">
+            <CAL_POINT disp_quantity="0.0770" disp_steps="56" disp_time="9476" execution_order="11" id="1" repetitions="4" target_quantity="0.0770" target_steps="0" target_type="CC" tolerance="10" use_from="3" use_to="2"/>
+            <CAL_POINT disp_quantity="0.1500" disp_steps="101" disp_time="9624" execution_order="10" id="2" repetitions="4" target_quantity="0.1500" target_steps="0" target_type="CC" tolerance="10" use_from="4" use_to="3"/>
+            <CAL_POINT disp_quantity="0.3000" disp_steps="194" disp_time="9490" execution_order="9" id="3" repetitions="4" target_quantity="0.3000" target_steps="0" target_type="CC" tolerance="10" use_from="5" use_to="4"/>
+            <CAL_POINT disp_quantity="0.7700" disp_steps="487" disp_time="9445" execution_order="8" id="4" repetitions="2" target_quantity="0.7700" target_steps="0" target_type="CC" tolerance="10" use_from="6" use_to="5"/>
+            <CAL_POINT disp_quantity="1.5000" disp_steps="943" disp_time="9605" execution_order="7" id="5" repetitions="2" target_quantity="1.5000" target_steps="0" target_type="CC" tolerance="10" use_from="8" use_to="6"/>
+            <CAL_POINT disp_quantity="3.0000" disp_steps="1881" disp_time="9538" execution_order="6" id="6" repetitions="2" target_quantity="3.0000" target_steps="0" target_type="CC" tolerance="10" use_from="8" use_to="7"/>
+           </CAL_TABLE>
+           <CAL_TABLE calib_speed="100" change_volume="3.1234" id="2" speed="100">
+            <CAL_POINT disp_quantity="3.1176" disp_steps="2000" disp_time="3783" execution_order="5" id="7" repetitions="2" target_quantity="0.0000" target_steps="2000" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="10.0975" disp_steps="6400" disp_time="3719" execution_order="4" id="8" repetitions="2" target_quantity="0.0000" target_steps="6400" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="10.8286" disp_steps="7000" disp_time="6007" execution_order="3" id="9" repetitions="2" target_quantity="0.0000" target_steps="7000" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="20.0419" disp_steps="12800" disp_time="6068" execution_order="2" id="10" repetitions="2" target_quantity="0.0000" target_steps="12800" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="64.7103" disp_steps="41600" disp_time="17676" execution_order="1" id="11" repetitions="2" target_quantity="0.0000" target_steps="41600" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+           </CAL_TABLE>
+          </CALIBRATION>
+         </CALIBRATIONS>
+        </MOTOR>
+        <MOTOR activity="60" enabled="true" id="1" pause="5400" policy="0" resolution="2" speed="100" supplying_current="8" type="STIRRING_MOTOR" wire_board_id="0" wire_connectors_id="0"/>
+        <MOTOR activity="60" enabled="true" id="1" pause="5400" resolution="5" speed="50" suction_speed="75" supplying_current="8" type="RECIRCULATING_MOTOR"/>
+       </MOTORS>
+       <VALVES>
+        <VALVE board_id="54" id="5" valve_type="5"/>
+       </VALVES>
+      </CIRCUIT>
+     </CANISTER>
+    </COLORANT>
+    <COLORANT code="W-86" description="W-86" hex_value="#ff5500" id="10" min_sim_disp_thr="2.0000" sim_dispensing="true" spec_w="1320" system_colorant_id="10" system_descr="0.00  Minimal GData" system_id="1544522460">
+     <CANISTER barcode="" cur_q="760.5215" custom_spec_w="0" enabled="true" id="10" layout_positions_id="116" max_q="1500" res_q="300.0000" res_w="400.0000">
+      <CIRCUIT enabled="true" id="8" position_id="116" wire_board_id="66" wire_connector_id="6">
+       <MOTORS>
+        <MOTOR activation_mode="1" default_profile="false" description="Bellows I_PPG" dispensing_algorithm="1" enabled="true" id="114" inter_disp_time="0.0" max_speed="100" max_speed_limit="100" max_user_speed="100" pre_erogation_time="0" profile_UID="@runuGDD`?" pump_size="2" pump_type="10" resolution="5" serial_number="?y4aSo5MU+qW2yuKOjLcFG5cSXrMPqLcSp1oJrH7FluKOjLcFDe0F4bMRpbcUbvJCyy2HfrsSffNP+qW2yC4RrD7Tb9dFDe0FE5MRbv3JM1oGlrMRXv6PWC5ToLtOqLdSbnpBE5MRbvJ3AmZJrrMHiHtS+83FluKTjL4RqDdFDe0FJHdSfvsP+qW2yuKOjLcF3zMRj5cRanpBE5MRbvJ3AmZLXncFKLsSq1YJrrcOb97FlOLOivJ3AmpBJHdSfvsP+qW2yC5TobcRdvJ3AmZJXrMP+0LOo5MRbHNPonpBE5MRbvJ3AmZLXncFIHqGo0JCvy5Cm0pCyyYLXncFDe0FlC5TobcRdvJ3AmpB3nMTpHNPovJ3AmpB19dSXbdFDe0" suction_erogation_delay="0" suction_speed="100" supplying_current="8" theoretical_mpx="640" tinting_threshold="4.0000" type="DOSING_MOTOR" version="1.0" zero_pump="false">
+         <CALIBRATIONS>
+          <CALIBRATION calib_spec_w="1320" creation_ts="2019-01-14T14:31:52" enabled="true" host_name="" id="1" last_modification_ts="2019-01-17T15:45:09" rendering="3" type="0" uid="gHjrguK2vR">
+           <CAL_TABLE calib_speed="20" change_volume="0.0000" id="1" speed="20">
+            <CAL_POINT disp_quantity="0.0770" disp_steps="46" disp_time="9562" execution_order="11" id="1" repetitions="4" target_quantity="0.0770" target_steps="0" target_type="CC" tolerance="10" use_from="3" use_to="2"/>
+            <CAL_POINT disp_quantity="0.1500" disp_steps="89" disp_time="9493" execution_order="10" id="2" repetitions="4" target_quantity="0.1500" target_steps="0" target_type="CC" tolerance="10" use_from="4" use_to="3"/>
+            <CAL_POINT disp_quantity="0.3000" disp_steps="181" disp_time="9590" execution_order="9" id="3" repetitions="4" target_quantity="0.3000" target_steps="0" target_type="CC" tolerance="10" use_from="5" use_to="4"/>
+            <CAL_POINT disp_quantity="0.7700" disp_steps="475" disp_time="9513" execution_order="8" id="4" repetitions="2" target_quantity="0.7700" target_steps="0" target_type="CC" tolerance="10" use_from="6" use_to="5"/>
+            <CAL_POINT disp_quantity="1.5000" disp_steps="935" disp_time="9507" execution_order="7" id="5" repetitions="2" target_quantity="1.5000" target_steps="0" target_type="CC" tolerance="10" use_from="8" use_to="6"/>
+            <CAL_POINT disp_quantity="3.0000" disp_steps="1881" disp_time="9487" execution_order="6" id="6" repetitions="2" target_quantity="3.0000" target_steps="0" target_type="CC" tolerance="10" use_from="8" use_to="7"/>
+           </CAL_TABLE>
+           <CAL_TABLE calib_speed="100" change_volume="3.1364" id="2" speed="100">
+            <CAL_POINT disp_quantity="3.1155" disp_steps="2000" disp_time="3669" execution_order="5" id="7" repetitions="2" target_quantity="0.0000" target_steps="2000" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="10.0568" disp_steps="6400" disp_time="3691" execution_order="4" id="8" repetitions="2" target_quantity="0.0000" target_steps="6400" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="10.7690" disp_steps="7000" disp_time="6235" execution_order="3" id="9" repetitions="2" target_quantity="0.0000" target_steps="7000" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="19.9327" disp_steps="12800" disp_time="6152" execution_order="2" id="10" repetitions="2" target_quantity="0.0000" target_steps="12800" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="64.2948" disp_steps="41600" disp_time="17483" execution_order="1" id="11" repetitions="2" target_quantity="0.0000" target_steps="41600" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+           </CAL_TABLE>
+          </CALIBRATION>
+         </CALIBRATIONS>
+        </MOTOR>
+        <MOTOR activity="60" enabled="true" id="1" pause="5400" policy="0" resolution="2" speed="100" supplying_current="8" type="STIRRING_MOTOR" wire_board_id="0" wire_connectors_id="0"/>
+        <MOTOR activity="60" enabled="true" id="1" pause="5400" resolution="5" speed="50" suction_speed="75" supplying_current="8" type="RECIRCULATING_MOTOR"/>
+       </MOTORS>
+       <VALVES>
+        <VALVE board_id="54" id="6" valve_type="5"/>
+       </VALVES>
+      </CIRCUIT>
+     </CANISTER>
+    </COLORANT>
+    <COLORANT code="W-85" description="W-85" hex_value="#2b0041" id="11" min_sim_disp_thr="2.0000" sim_dispensing="true" spec_w="1170" system_colorant_id="11" system_descr="0.00  Minimal GData" system_id="1544522460">
+     <CANISTER barcode="" cur_q="950.0000" custom_spec_w="0" enabled="true" id="11" layout_positions_id="135" max_q="1500" res_q="300.0000" res_w="400.0000">
+      <CIRCUIT enabled="true" id="13" position_id="135" wire_board_id="68" wire_connector_id="5">
+       <MOTORS>
+        <MOTOR activation_mode="1" default_profile="false" description="Bellows I_PPG" dispensing_algorithm="1" enabled="true" id="114" inter_disp_time="0.0" max_speed="100" max_speed_limit="100" max_user_speed="100" pre_erogation_time="0" profile_UID="@runuGDD`?" pump_size="2" pump_type="10" resolution="5" serial_number="?y4aSo5MU+qW2yuKOjLcFG5cSXrMPqLcSp1oJrH7FluKOjLcFDe0F4bMRpbcUbvJCyy2HfrsSffNP+qW2yC4RrD7Tb9dFDe0FE5MRbv3JM1oGlrMRXv6PWC5ToLtOqLdSbnpBE5MRbvJ3AmZJrrMHiHtS+83FluKTjL4RqDdFDe0FJHdSfvsP+qW2yuKOjLcF3zMRj5cRanpBE5MRbvJ3AmZLXncFKLsSq1YJrrcOb97FlOLOivJ3AmpBJHdSfvsP+qW2yC5TobcRdvJ3AmZJXrMP+0LOo5MRbHNPonpBE5MRbvJ3AmZLXncFIHqGo0JCvy5Cm0pCyyYLXncFDe0FlC5TobcRdvJ3AmpB3nMTpHNPovJ3AmpB19dSXbdFDe0" suction_erogation_delay="0" suction_speed="100" supplying_current="8" theoretical_mpx="640" tinting_threshold="4.0000" type="DOSING_MOTOR" version="1.0" zero_pump="false">
+         <CALIBRATIONS>
+          <CALIBRATION calib_spec_w="1170" creation_ts="2019-01-14T12:23:02" enabled="true" host_name="" id="1" last_modification_ts="2019-01-17T15:45:09" rendering="3" type="0" uid="N54jkCkjxm">
+           <CAL_TABLE calib_speed="20" change_volume="0.0000" id="1" speed="20">
+            <CAL_POINT disp_quantity="0.0770" disp_steps="53" disp_time="9376" execution_order="11" id="1" repetitions="4" target_quantity="0.0770" target_steps="0" target_type="CC" tolerance="10" use_from="3" use_to="2"/>
+            <CAL_POINT disp_quantity="0.1500" disp_steps="96" disp_time="9498" execution_order="10" id="2" repetitions="4" target_quantity="0.1500" target_steps="0" target_type="CC" tolerance="10" use_from="4" use_to="3"/>
+            <CAL_POINT disp_quantity="0.3000" disp_steps="184" disp_time="9459" execution_order="9" id="3" repetitions="4" target_quantity="0.3000" target_steps="0" target_type="CC" tolerance="10" use_from="5" use_to="4"/>
+            <CAL_POINT disp_quantity="0.7700" disp_steps="472" disp_time="9571" execution_order="8" id="4" repetitions="2" target_quantity="0.7700" target_steps="0" target_type="CC" tolerance="10" use_from="6" use_to="5"/>
+            <CAL_POINT disp_quantity="1.5000" disp_steps="922" disp_time="9471" execution_order="7" id="5" repetitions="2" target_quantity="1.5000" target_steps="0" target_type="CC" tolerance="10" use_from="8" use_to="6"/>
+            <CAL_POINT disp_quantity="3.0000" disp_steps="1846" disp_time="9534" execution_order="6" id="6" repetitions="2" target_quantity="3.0000" target_steps="0" target_type="CC" tolerance="10" use_from="8" use_to="7"/>
+           </CAL_TABLE>
+           <CAL_TABLE calib_speed="100" change_volume="3.2261" id="2" speed="100">
+            <CAL_POINT disp_quantity="3.2059" disp_steps="2000" disp_time="3704" execution_order="5" id="7" repetitions="2" target_quantity="0.0000" target_steps="2000" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="10.2697" disp_steps="6400" disp_time="3759" execution_order="4" id="8" repetitions="2" target_quantity="0.0000" target_steps="6400" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="10.9127" disp_steps="7000" disp_time="6074" execution_order="3" id="9" repetitions="2" target_quantity="0.0000" target_steps="7000" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="20.2363" disp_steps="12800" disp_time="5965" execution_order="2" id="10" repetitions="2" target_quantity="0.0000" target_steps="12800" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="64.9831" disp_steps="41600" disp_time="17518" execution_order="1" id="11" repetitions="2" target_quantity="0.0000" target_steps="41600" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+           </CAL_TABLE>
+          </CALIBRATION>
+         </CALIBRATIONS>
+        </MOTOR>
+        <MOTOR activity="60" enabled="true" id="1" pause="5400" policy="0" resolution="2" speed="100" supplying_current="8" type="STIRRING_MOTOR" wire_board_id="0" wire_connectors_id="0"/>
+        <MOTOR activity="60" enabled="true" id="1" pause="5400" resolution="5" speed="50" suction_speed="75" supplying_current="8" type="RECIRCULATING_MOTOR"/>
+       </MOTORS>
+       <VALVES>
+        <VALVE board_id="55" id="5" valve_type="5"/>
+       </VALVES>
+      </CIRCUIT>
+     </CANISTER>
+    </COLORANT>
+    <COLORANT code="W-81" description="W-81" hex_value="#fafa5a" id="12" min_sim_disp_thr="2.0000" sim_dispensing="true" spec_w="1918" system_colorant_id="12" system_descr="0.00  Minimal GData" system_id="1544522460">
+     <CANISTER barcode="" cur_q="1069.4905" custom_spec_w="1918" enabled="true" id="12" layout_positions_id="117" max_q="1500" res_q="300.0000" res_w="400.0000">
+      <CIRCUIT enabled="true" id="9" position_id="117" wire_board_id="66" wire_connector_id="7">
+       <MOTORS>
+        <MOTOR activation_mode="1" default_profile="false" description="Bellows I_PPG" dispensing_algorithm="1" enabled="true" id="114" inter_disp_time="0.0" max_speed="100" max_speed_limit="100" max_user_speed="100" pre_erogation_time="0" profile_UID="@runuGDD`?" pump_size="2" pump_type="10" resolution="5" serial_number="?y4aSo5MU+qW2yuKOjLcFG5cSXrMPqLcSp1oJrH7FluKOjLcFDe0F4bMRpbcUbvJCyy2HfrsSffNP+qW2yC4RrD7Tb9dFDe0FE5MRbv3JM1oGlrMRXv6PWC5ToLtOqLdSbnpBE5MRbvJ3AmZJrrMHiHtS+83FluKTjL4RqDdFDe0FJHdSfvsP+qW2yuKOjLcF3zMRj5cRanpBE5MRbvJ3AmZLXncFKLsSq1YJrrcOb97FlOLOivJ3AmpBJHdSfvsP+qW2yC5TobcRdvJ3AmZJXrMP+0LOo5MRbHNPonpBE5MRbvJ3AmZLXncFIHqGo0JCvy5Cm0pCyyYLXncFDe0FlC5TobcRdvJ3AmpB3nMTpHNPovJ3AmpB19dSXbdFDe0" suction_erogation_delay="0" suction_speed="100" supplying_current="8" theoretical_mpx="640" tinting_threshold="4.0000" type="DOSING_MOTOR" version="1.0" zero_pump="false">
+         <CALIBRATIONS>
+          <CALIBRATION calib_spec_w="1918" creation_ts="2019-01-14T14:58:14" enabled="true" host_name="" id="1" last_modification_ts="2019-01-17T15:45:09" rendering="3" type="0" uid="vWTIEH0B3V">
+           <CAL_TABLE calib_speed="20" change_volume="0.0000" id="1" speed="20">
+            <CAL_POINT disp_quantity="0.0770" disp_steps="45" disp_time="9395" execution_order="11" id="1" repetitions="4" target_quantity="0.0770" target_steps="0" target_type="CC" tolerance="10" use_from="3" use_to="2"/>
+            <CAL_POINT disp_quantity="0.1500" disp_steps="87" disp_time="9519" execution_order="10" id="2" repetitions="4" target_quantity="0.1500" target_steps="0" target_type="CC" tolerance="10" use_from="4" use_to="3"/>
+            <CAL_POINT disp_quantity="0.3000" disp_steps="176" disp_time="9438" execution_order="9" id="3" repetitions="4" target_quantity="0.3000" target_steps="0" target_type="CC" tolerance="10" use_from="5" use_to="4"/>
+            <CAL_POINT disp_quantity="0.7700" disp_steps="468" disp_time="9396" execution_order="8" id="4" repetitions="2" target_quantity="0.7700" target_steps="0" target_type="CC" tolerance="10" use_from="6" use_to="5"/>
+            <CAL_POINT disp_quantity="1.5000" disp_steps="924" disp_time="9446" execution_order="7" id="5" repetitions="2" target_quantity="1.5000" target_steps="0" target_type="CC" tolerance="10" use_from="8" use_to="6"/>
+            <CAL_POINT disp_quantity="3.0000" disp_steps="1865" disp_time="9528" execution_order="6" id="6" repetitions="2" target_quantity="3.0000" target_steps="0" target_type="CC" tolerance="10" use_from="8" use_to="7"/>
+           </CAL_TABLE>
+           <CAL_TABLE calib_speed="100" change_volume="3.1530" id="2" speed="100">
+            <CAL_POINT disp_quantity="3.1709" disp_steps="2000" disp_time="3570" execution_order="5" id="7" repetitions="2" target_quantity="0.0000" target_steps="2000" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="10.1216" disp_steps="6400" disp_time="3755" execution_order="4" id="8" repetitions="2" target_quantity="0.0000" target_steps="6400" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="10.8448" disp_steps="7000" disp_time="6053" execution_order="3" id="9" repetitions="2" target_quantity="0.0000" target_steps="7000" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="20.0240" disp_steps="12800" disp_time="6024" execution_order="2" id="10" repetitions="2" target_quantity="0.0000" target_steps="12800" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="64.5028" disp_steps="41600" disp_time="17466" execution_order="1" id="11" repetitions="2" target_quantity="0.0000" target_steps="41600" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+           </CAL_TABLE>
+          </CALIBRATION>
+         </CALIBRATIONS>
+        </MOTOR>
+        <MOTOR activity="60" enabled="true" id="1" pause="5400" policy="0" resolution="2" speed="100" supplying_current="8" type="STIRRING_MOTOR" wire_board_id="0" wire_connectors_id="0"/>
+        <MOTOR activity="60" enabled="true" id="1" pause="5400" resolution="5" speed="50" suction_speed="75" supplying_current="8" type="RECIRCULATING_MOTOR"/>
+       </MOTORS>
+       <VALVES>
+        <VALVE board_id="54" id="7" valve_type="5"/>
+       </VALVES>
+      </CIRCUIT>
+     </CANISTER>
+    </COLORANT>
+    <COLORANT code="W-88" description="W-88" hex_value="#680000" id="13" min_sim_disp_thr="2.0000" sim_dispensing="true" spec_w="2250" system_colorant_id="13" system_descr="0.00  Minimal GData" system_id="1544522460">
+     <CANISTER barcode="" cur_q="941.5670" custom_spec_w="0" enabled="true" id="13" layout_positions_id="118" max_q="1500" res_q="300.0000" res_w="400.0000">
+      <CIRCUIT enabled="true" id="10" position_id="118" wire_board_id="66" wire_connector_id="8">
+       <MOTORS>
+        <MOTOR activation_mode="1" default_profile="false" description="Bellows I_PPG" dispensing_algorithm="1" enabled="true" id="114" inter_disp_time="0.0" max_speed="100" max_speed_limit="100" max_user_speed="100" pre_erogation_time="0" profile_UID="@runuGDD`?" pump_size="2" pump_type="10" resolution="5" serial_number="?y4aSo5MU+qW2yuKOjLcFG5cSXrMPqLcSp1oJrH7FluKOjLcFDe0F4bMRpbcUbvJCyy2HfrsSffNP+qW2yC4RrD7Tb9dFDe0FE5MRbv3JM1oGlrMRXv6PWC5ToLtOqLdSbnpBE5MRbvJ3AmZJrrMHiHtS+83FluKTjL4RqDdFDe0FJHdSfvsP+qW2yuKOjLcF3zMRj5cRanpBE5MRbvJ3AmZLXncFKLsSq1YJrrcOb97FlOLOivJ3AmpBJHdSfvsP+qW2yC5TobcRdvJ3AmZJXrMP+0LOo5MRbHNPonpBE5MRbvJ3AmZLXncFIHqGo0JCvy5Cm0pCyyYLXncFDe0FlC5TobcRdvJ3AmpB3nMTpHNPovJ3AmpB19dSXbdFDe0" suction_erogation_delay="0" suction_speed="100" supplying_current="8" theoretical_mpx="640" tinting_threshold="4.0000" type="DOSING_MOTOR" version="1.0" zero_pump="false">
+         <CALIBRATIONS>
+          <CALIBRATION calib_spec_w="2250" creation_ts="2019-01-14T15:17:43" enabled="true" host_name="" id="1" last_modification_ts="2019-01-17T15:45:09" rendering="3" type="0" uid="mfxddbNBXM">
+           <CAL_TABLE calib_speed="20" change_volume="0.0000" id="1" speed="20">
+            <CAL_POINT disp_quantity="0.0770" disp_steps="39" disp_time="9572" execution_order="11" id="1" repetitions="4" target_quantity="0.0770" target_steps="0" target_type="CC" tolerance="10" use_from="3" use_to="2"/>
+            <CAL_POINT disp_quantity="0.1500" disp_steps="75" disp_time="9447" execution_order="10" id="2" repetitions="4" target_quantity="0.1500" target_steps="0" target_type="CC" tolerance="10" use_from="4" use_to="3"/>
+            <CAL_POINT disp_quantity="0.3000" disp_steps="164" disp_time="9568" execution_order="9" id="3" repetitions="4" target_quantity="0.3000" target_steps="0" target_type="CC" tolerance="10" use_from="5" use_to="4"/>
+            <CAL_POINT disp_quantity="0.7700" disp_steps="457" disp_time="9428" execution_order="8" id="4" repetitions="2" target_quantity="0.7700" target_steps="0" target_type="CC" tolerance="10" use_from="6" use_to="5"/>
+            <CAL_POINT disp_quantity="1.5000" disp_steps="916" disp_time="9441" execution_order="7" id="5" repetitions="2" target_quantity="1.5000" target_steps="0" target_type="CC" tolerance="10" use_from="8" use_to="6"/>
+            <CAL_POINT disp_quantity="3.0000" disp_steps="1861" disp_time="9641" execution_order="6" id="6" repetitions="2" target_quantity="3.0000" target_steps="0" target_type="CC" tolerance="10" use_from="8" use_to="7"/>
+           </CAL_TABLE>
+           <CAL_TABLE calib_speed="100" change_volume="3.1520" id="2" speed="100">
+            <CAL_POINT disp_quantity="3.1660" disp_steps="2000" disp_time="3706" execution_order="5" id="7" repetitions="2" target_quantity="0.0000" target_steps="2000" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="10.0886" disp_steps="6400" disp_time="3747" execution_order="4" id="8" repetitions="2" target_quantity="0.0000" target_steps="6400" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="10.8253" disp_steps="7000" disp_time="5927" execution_order="3" id="9" repetitions="2" target_quantity="0.0000" target_steps="7000" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="19.9612" disp_steps="12800" disp_time="5894" execution_order="2" id="10" repetitions="2" target_quantity="0.0000" target_steps="12800" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="64.3336" disp_steps="41600" disp_time="17907" execution_order="1" id="11" repetitions="2" target_quantity="0.0000" target_steps="41600" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+           </CAL_TABLE>
+          </CALIBRATION>
+         </CALIBRATIONS>
+        </MOTOR>
+        <MOTOR activity="60" enabled="true" id="1" pause="5400" policy="0" resolution="2" speed="100" supplying_current="8" type="STIRRING_MOTOR" wire_board_id="0" wire_connectors_id="0"/>
+        <MOTOR activity="60" enabled="true" id="1" pause="5400" resolution="5" speed="50" suction_speed="75" supplying_current="8" type="RECIRCULATING_MOTOR"/>
+       </MOTORS>
+       <VALVES>
+        <VALVE board_id="54" id="8" valve_type="5"/>
+       </VALVES>
+      </CIRCUIT>
+     </CANISTER>
+    </COLORANT>
+    <COLORANT code="W-73" description="W-73" hex_value="#330695" id="14" min_sim_disp_thr="2.0000" sim_dispensing="true" spec_w="1200" system_colorant_id="14" system_descr="0.00  Minimal GData" system_id="1544522460">
+     <CANISTER barcode="" cur_q="950.0000" custom_spec_w="0" enabled="true" id="14" layout_positions_id="137" max_q="1500" res_q="300.0000" res_w="400.0000">
+      <CIRCUIT enabled="true" id="14" position_id="137" wire_board_id="68" wire_connector_id="7">
+       <MOTORS>
+        <MOTOR activation_mode="1" default_profile="false" description="Bellows I_PPG" dispensing_algorithm="1" enabled="true" id="114" inter_disp_time="0.0" max_speed="100" max_speed_limit="100" max_user_speed="100" pre_erogation_time="0" profile_UID="@runuGDD`?" pump_size="2" pump_type="10" resolution="5" serial_number="?y4aSo5MU+qW2yuKOjLcFG5cSXrMPqLcSp1oJrH7FluKOjLcFDe0F4bMRpbcUbvJCyy2HfrsSffNP+qW2yC4RrD7Tb9dFDe0FE5MRbv3JM1oGlrMRXv6PWC5ToLtOqLdSbnpBE5MRbvJ3AmZJrrMHiHtS+83FluKTjL4RqDdFDe0FJHdSfvsP+qW2yuKOjLcF3zMRj5cRanpBE5MRbvJ3AmZLXncFKLsSq1YJrrcOb97FlOLOivJ3AmpBJHdSfvsP+qW2yC5TobcRdvJ3AmZJXrMP+0LOo5MRbHNPonpBE5MRbvJ3AmZLXncFIHqGo0JCvy5Cm0pCyyYLXncFDe0FlC5TobcRdvJ3AmpB3nMTpHNPovJ3AmpB19dSXbdFDe0" suction_erogation_delay="0" suction_speed="100" supplying_current="8" theoretical_mpx="640" tinting_threshold="4.0000" type="DOSING_MOTOR" version="1.0" zero_pump="false">
+         <CALIBRATIONS>
+          <CALIBRATION calib_spec_w="1200" creation_ts="2019-01-14T08:39:23" enabled="true" host_name="" id="1" last_modification_ts="2019-01-17T15:45:09" rendering="3" type="0" uid="Yg7h0uvDO4">
+           <CAL_TABLE calib_speed="0" change_volume="0.0000" id="1" speed="20">
+            <CAL_POINT disp_quantity="0.0770" disp_steps="21" disp_time="9467" execution_order="11" id="1" repetitions="4" target_quantity="0.0770" target_steps="0" target_type="CC" tolerance="10" use_from="3" use_to="2"/>
+            <CAL_POINT disp_quantity="0.1500" disp_steps="32" disp_time="9546" execution_order="10" id="2" repetitions="4" target_quantity="0.1500" target_steps="0" target_type="CC" tolerance="10" use_from="4" use_to="3"/>
+            <CAL_POINT disp_quantity="0.3000" disp_steps="76" disp_time="9558" execution_order="9" id="3" repetitions="4" target_quantity="0.3000" target_steps="0" target_type="CC" tolerance="10" use_from="5" use_to="4"/>
+            <CAL_POINT disp_quantity="0.7700" disp_steps="362" disp_time="9480" execution_order="8" id="4" repetitions="2" target_quantity="0.7700" target_steps="0" target_type="CC" tolerance="10" use_from="6" use_to="5"/>
+            <CAL_POINT disp_quantity="1.5000" disp_steps="820" disp_time="9647" execution_order="7" id="5" repetitions="2" target_quantity="1.5000" target_steps="0" target_type="CC" tolerance="10" use_from="8" use_to="6"/>
+            <CAL_POINT disp_quantity="3.0000" disp_steps="1770" disp_time="9504" execution_order="6" id="6" repetitions="2" target_quantity="3.0000" target_steps="0" target_type="CC" tolerance="10" use_from="8" use_to="7"/>
+           </CAL_TABLE>
+           <CAL_TABLE calib_speed="0" change_volume="2.0000" id="2" speed="100">
+            <CAL_POINT disp_quantity="3.3186" disp_steps="2000" disp_time="3707" execution_order="5" id="7" repetitions="2" target_quantity="0.0000" target_steps="2000" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="10.2070" disp_steps="6400" disp_time="3824" execution_order="4" id="8" repetitions="2" target_quantity="0.0000" target_steps="6400" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="10.8494" disp_steps="7000" disp_time="6010" execution_order="3" id="9" repetitions="2" target_quantity="0.0000" target_steps="7000" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="19.9454" disp_steps="12800" disp_time="6069" execution_order="2" id="10" repetitions="2" target_quantity="0.0000" target_steps="12800" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="63.6518" disp_steps="41600" disp_time="17620" execution_order="1" id="11" repetitions="2" target_quantity="0.0000" target_steps="41600" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+           </CAL_TABLE>
+          </CALIBRATION>
+         </CALIBRATIONS>
+        </MOTOR>
+        <MOTOR activity="60" enabled="true" id="1" pause="5400" policy="0" resolution="2" speed="100" supplying_current="8" type="STIRRING_MOTOR" wire_board_id="0" wire_connectors_id="0"/>
+        <MOTOR activity="60" enabled="true" id="1" pause="5400" resolution="5" speed="50" suction_speed="75" supplying_current="8" type="RECIRCULATING_MOTOR"/>
+       </MOTORS>
+       <VALVES>
+        <VALVE board_id="55" id="6" valve_type="5"/>
+       </VALVES>
+      </CIRCUIT>
+     </CANISTER>
+    </COLORANT>
+    <COLORANT code="W-84" description="W-84" hex_value="#003400" id="15" min_sim_disp_thr="2.0000" sim_dispensing="true" spec_w="1340" system_colorant_id="15" system_descr="0.00  Minimal GData" system_id="1544522460">
+     <CANISTER barcode="" cur_q="924.2670" custom_spec_w="0" enabled="true" id="15" layout_positions_id="119" max_q="1500" res_q="300.0000" res_w="400.0000">
+      <CIRCUIT enabled="true" id="15" position_id="119" wire_board_id="66" wire_connector_id="9">
+       <MOTORS>
+        <MOTOR activation_mode="1" default_profile="false" description="Bellows I_PPG" dispensing_algorithm="1" enabled="true" id="114" inter_disp_time="0.0" max_speed="100" max_speed_limit="100" max_user_speed="100" pre_erogation_time="0" profile_UID="@runuGDD`?" pump_size="2" pump_type="10" resolution="5" serial_number="?y4aSo5MU+qW2yuKOjLcFG5cSXrMPqLcSp1oJrH7FluKOjLcFDe0F4bMRpbcUbvJCyy2HfrsSffNP+qW2yC4RrD7Tb9dFDe0FE5MRbv3JM1oGlrMRXv6PWC5ToLtOqLdSbnpBE5MRbvJ3AmZJrrMHiHtS+83FluKTjL4RqDdFDe0FJHdSfvsP+qW2yuKOjLcF3zMRj5cRanpBE5MRbvJ3AmZLXncFKLsSq1YJrrcOb97FlOLOivJ3AmpBJHdSfvsP+qW2yC5TobcRdvJ3AmZJXrMP+0LOo5MRbHNPonpBE5MRbvJ3AmZLXncFIHqGo0JCvy5Cm0pCyyYLXncFDe0FlC5TobcRdvJ3AmpB3nMTpHNPovJ3AmpB19dSXbdFDe0" suction_erogation_delay="0" suction_speed="100" supplying_current="8" theoretical_mpx="640" tinting_threshold="4.0000" type="DOSING_MOTOR" version="1.0" zero_pump="false">
+         <CALIBRATIONS>
+          <CALIBRATION calib_spec_w="1340" creation_ts="2019-01-14T15:30:39" enabled="true" host_name="" id="1" last_modification_ts="2019-01-17T15:45:09" rendering="3" type="0" uid="T8iEkIDrNS">
+           <CAL_TABLE calib_speed="20" change_volume="0.0000" id="1" speed="20">
+            <CAL_POINT disp_quantity="0.0770" disp_steps="32" disp_time="9505" execution_order="11" id="1" repetitions="4" target_quantity="0.0770" target_steps="0" target_type="CC" tolerance="10" use_from="3" use_to="2"/>
+            <CAL_POINT disp_quantity="0.1500" disp_steps="68" disp_time="9433" execution_order="10" id="2" repetitions="4" target_quantity="0.1500" target_steps="0" target_type="CC" tolerance="10" use_from="4" use_to="3"/>
+            <CAL_POINT disp_quantity="0.3000" disp_steps="158" disp_time="9576" execution_order="9" id="3" repetitions="4" target_quantity="0.3000" target_steps="0" target_type="CC" tolerance="10" use_from="5" use_to="4"/>
+            <CAL_POINT disp_quantity="0.7700" disp_steps="453" disp_time="9590" execution_order="8" id="4" repetitions="2" target_quantity="0.7700" target_steps="0" target_type="CC" tolerance="10" use_from="6" use_to="5"/>
+            <CAL_POINT disp_quantity="1.5000" disp_steps="916" disp_time="9503" execution_order="7" id="5" repetitions="2" target_quantity="1.5000" target_steps="0" target_type="CC" tolerance="10" use_from="8" use_to="6"/>
+            <CAL_POINT disp_quantity="3.0000" disp_steps="1869" disp_time="9582" execution_order="6" id="6" repetitions="2" target_quantity="3.0000" target_steps="0" target_type="CC" tolerance="10" use_from="8" use_to="7"/>
+           </CAL_TABLE>
+           <CAL_TABLE calib_speed="100" change_volume="3.1157" id="2" speed="100">
+            <CAL_POINT disp_quantity="3.1567" disp_steps="2000" disp_time="3717" execution_order="5" id="7" repetitions="2" target_quantity="0.0000" target_steps="2000" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="10.0354" disp_steps="6400" disp_time="3642" execution_order="4" id="8" repetitions="2" target_quantity="0.0000" target_steps="6400" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="10.7674" disp_steps="7000" disp_time="6201" execution_order="3" id="9" repetitions="2" target_quantity="0.0000" target_steps="7000" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="19.8433" disp_steps="12800" disp_time="6233" execution_order="2" id="10" repetitions="2" target_quantity="0.0000" target_steps="12800" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="63.9221" disp_steps="41600" disp_time="17491" execution_order="1" id="11" repetitions="2" target_quantity="0.0000" target_steps="41600" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+           </CAL_TABLE>
+          </CALIBRATION>
+         </CALIBRATIONS>
+        </MOTOR>
+        <MOTOR activity="60" enabled="true" id="1" pause="5400" policy="0" resolution="2" speed="100" supplying_current="8" type="STIRRING_MOTOR" wire_board_id="0" wire_connectors_id="0"/>
+        <MOTOR activity="60" enabled="true" id="1" pause="5400" resolution="5" speed="50" suction_speed="75" supplying_current="8" type="RECIRCULATING_MOTOR"/>
+       </MOTORS>
+       <VALVES>
+        <VALVE board_id="54" id="9" valve_type="5"/>
+       </VALVES>
+      </CIRCUIT>
+     </CANISTER>
+    </COLORANT>
+    <COLORANT code="LEEG" description="" hex_value="#ffffff" id="32" min_sim_disp_thr="2.0000" sim_dispensing="true" spec_w="0" system_colorant_id="32" system_descr="0.00  Minimal GData" system_id="1544522460">
+     <CANISTER barcode="" cur_q="1500.0000" custom_spec_w="0" enabled="false" id="16" layout_positions_id="139" max_q="1500" res_q="300.0000" res_w="400.0000">
+      <CIRCUIT enabled="false" id="16" position_id="139" wire_board_id="68" wire_connector_id="9">
+       <MOTORS>
+        <MOTOR activation_mode="1" default_profile="false" description="Bellows I_PPG" dispensing_algorithm="1" enabled="true" id="114" inter_disp_time="0.0" max_speed="100" max_speed_limit="100" max_user_speed="100" pre_erogation_time="0" profile_UID="@runuGDD`?" pump_size="2" pump_type="10" resolution="5" serial_number="" suction_erogation_delay="0" suction_speed="100" supplying_current="8" theoretical_mpx="640" tinting_threshold="4.0000" type="DOSING_MOTOR" version="1.0" zero_pump="false">
+         <CALIBRATIONS>
+          <CALIBRATION calib_spec_w="0" creation_ts="2019-01-14T08:39:23" enabled="true" host_name="" id="1" last_modification_ts="2019-01-14T10:47:58" rendering="3" type="0" uid="Yg7h0uvDO4">
+           <CAL_TABLE calib_speed="0" change_volume="0.0000" id="1" speed="20">
+            <CAL_POINT disp_quantity="0.0000" disp_steps="0" disp_time="0" execution_order="11" id="1" repetitions="4" target_quantity="0.0770" target_steps="0" target_type="CC" tolerance="10" use_from="3" use_to="2"/>
+            <CAL_POINT disp_quantity="0.0000" disp_steps="0" disp_time="0" execution_order="10" id="2" repetitions="4" target_quantity="0.1500" target_steps="0" target_type="CC" tolerance="10" use_from="4" use_to="3"/>
+            <CAL_POINT disp_quantity="0.0000" disp_steps="0" disp_time="0" execution_order="9" id="3" repetitions="4" target_quantity="0.3000" target_steps="0" target_type="CC" tolerance="10" use_from="5" use_to="4"/>
+            <CAL_POINT disp_quantity="0.0000" disp_steps="0" disp_time="0" execution_order="8" id="4" repetitions="2" target_quantity="0.7700" target_steps="0" target_type="CC" tolerance="10" use_from="6" use_to="5"/>
+            <CAL_POINT disp_quantity="0.0000" disp_steps="0" disp_time="0" execution_order="7" id="5" repetitions="2" target_quantity="1.5000" target_steps="0" target_type="CC" tolerance="10" use_from="8" use_to="6"/>
+            <CAL_POINT disp_quantity="0.0000" disp_steps="0" disp_time="0" execution_order="6" id="6" repetitions="2" target_quantity="3.0000" target_steps="0" target_type="CC" tolerance="10" use_from="8" use_to="7"/>
+           </CAL_TABLE>
+           <CAL_TABLE calib_speed="0" change_volume="2.0000" id="2" speed="100">
+            <CAL_POINT disp_quantity="0.0000" disp_steps="0" disp_time="0" execution_order="5" id="7" repetitions="2" target_quantity="0.0000" target_steps="2000" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="0.0000" disp_steps="0" disp_time="0" execution_order="4" id="8" repetitions="2" target_quantity="0.0000" target_steps="6400" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="0.0000" disp_steps="0" disp_time="0" execution_order="3" id="9" repetitions="2" target_quantity="0.0000" target_steps="7000" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="0.0000" disp_steps="0" disp_time="0" execution_order="2" id="10" repetitions="2" target_quantity="0.0000" target_steps="12800" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="0.0000" disp_steps="0" disp_time="0" execution_order="1" id="11" repetitions="2" target_quantity="0.0000" target_steps="41600" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+           </CAL_TABLE>
+          </CALIBRATION>
+         </CALIBRATIONS>
+        </MOTOR>
+        <MOTOR activity="60" enabled="false" id="1" pause="5400" policy="0" resolution="2" speed="100" supplying_current="8" type="STIRRING_MOTOR" wire_board_id="0" wire_connectors_id="0"/>
+        <MOTOR activity="60" enabled="false" id="1" pause="5400" resolution="5" speed="50" suction_speed="75" supplying_current="8" type="RECIRCULATING_MOTOR"/>
+       </MOTORS>
+       <VALVES>
+        <VALVE board_id="55" id="7" valve_type="5"/>
+       </VALVES>
+      </CIRCUIT>
+     </CANISTER>
+    </COLORANT>
+    <COLORANT code="S-55" description="S-55" hex_value="#ffffff" id="17" min_sim_disp_thr="2.0000" sim_dispensing="true" spec_w="1610" system_colorant_id="17" system_descr="0.00  Minimal GData" system_id="1544522460">
+     <CANISTER barcode="" cur_q="1700.0000" custom_spec_w="0" enabled="false" id="17" layout_positions_id="142" max_q="2500" res_q="300.0000" res_w="500.0000">
+      <CIRCUIT enabled="false" id="17" position_id="142" wire_board_id="69" wire_connector_id="2">
+       <MOTORS>
+        <MOTOR activation_mode="1" default_profile="false" description="Bellows I_PPG" dispensing_algorithm="1" enabled="true" id="114" inter_disp_time="0.0" max_speed="100" max_speed_limit="100" max_user_speed="100" pre_erogation_time="0" profile_UID="@runuGDD`?" pump_size="2" pump_type="10" resolution="5" serial_number="?y4aSo5MU+qW2yuKOjLcFG5cSXrMPqLcSp1oJrH7FluKOjLcFDe0F4bMRpbcUbvJCyy2HfrsSffNP+qW2yC4RrD7Tb9dFDe0FE5MRbv3JM1oGlrMRXv6PWC5ToLtOqLdSbnpBE5MRbvJ3AmZJrrMHiHtS+83FluKTjL4RqDdFDe0FJHdSfvsP+qW2yuKOjLcF3zMRj5cRanpBE5MRbvJ3AmZLXncFKLsSq1YJrrcOb97FlOLOivJ3AmpBJHdSfvsP+qW2yC5TobcRdvJ3AmZJXrMP+0LOo5MRbHNPonpBE5MRbvJ3AmZLXncFIHqGo0JCvy5Cm0pCyyYLXncFDe0FlC5TobcRdvJ3AmpB3nMTpHNPovJ3AmpB19dSXbdFDe0" suction_erogation_delay="0" suction_speed="100" supplying_current="8" theoretical_mpx="640" tinting_threshold="4.0000" type="DOSING_MOTOR" version="1.0" zero_pump="false">
+         <CALIBRATIONS>
+          <CALIBRATION calib_spec_w="1610" creation_ts="2019-01-14T16:07:35" enabled="true" host_name="" id="1" last_modification_ts="2019-01-17T15:45:10" rendering="3" type="0" uid="QPDrV03Dk7">
+           <CAL_TABLE calib_speed="20" change_volume="0.0000" id="1" speed="20">
+            <CAL_POINT disp_quantity="0.0770" disp_steps="67" disp_time="9536" execution_order="11" id="1" repetitions="4" target_quantity="0.0770" target_steps="0" target_type="CC" tolerance="10" use_from="3" use_to="2"/>
+            <CAL_POINT disp_quantity="0.1500" disp_steps="113" disp_time="9475" execution_order="10" id="2" repetitions="4" target_quantity="0.1500" target_steps="0" target_type="CC" tolerance="10" use_from="4" use_to="3"/>
+            <CAL_POINT disp_quantity="0.3000" disp_steps="209" disp_time="9446" execution_order="9" id="3" repetitions="4" target_quantity="0.3000" target_steps="0" target_type="CC" tolerance="10" use_from="5" use_to="4"/>
+            <CAL_POINT disp_quantity="0.7700" disp_steps="511" disp_time="9566" execution_order="8" id="4" repetitions="2" target_quantity="0.7700" target_steps="0" target_type="CC" tolerance="10" use_from="6" use_to="5"/>
+            <CAL_POINT disp_quantity="1.5000" disp_steps="982" disp_time="9495" execution_order="7" id="5" repetitions="2" target_quantity="1.5000" target_steps="0" target_type="CC" tolerance="10" use_from="8" use_to="6"/>
+            <CAL_POINT disp_quantity="3.0000" disp_steps="1947" disp_time="9366" execution_order="6" id="6" repetitions="2" target_quantity="3.0000" target_steps="0" target_type="CC" tolerance="10" use_from="8" use_to="7"/>
+           </CAL_TABLE>
+           <CAL_TABLE calib_speed="100" change_volume="2.9385" id="2" speed="100">
+            <CAL_POINT disp_quantity="3.0245" disp_steps="2000" disp_time="3820" execution_order="5" id="7" repetitions="2" target_quantity="0.0000" target_steps="2000" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="9.6760" disp_steps="6400" disp_time="3788" execution_order="4" id="8" repetitions="2" target_quantity="0.0000" target_steps="6400" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="10.2512" disp_steps="7000" disp_time="6111" execution_order="3" id="9" repetitions="2" target_quantity="0.0000" target_steps="7000" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="19.0645" disp_steps="12800" disp_time="5996" execution_order="2" id="10" repetitions="2" target_quantity="0.0000" target_steps="12800" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="61.2568" disp_steps="41600" disp_time="17448" execution_order="1" id="11" repetitions="2" target_quantity="0.0000" target_steps="41600" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+           </CAL_TABLE>
+          </CALIBRATION>
+         </CALIBRATIONS>
+        </MOTOR>
+        <MOTOR activity="60" enabled="true" id="1" pause="5400" policy="0" resolution="2" speed="100" supplying_current="8" type="STIRRING_MOTOR" wire_board_id="0" wire_connectors_id="0"/>
+        <MOTOR activity="60" enabled="true" id="1" pause="5400" resolution="5" speed="50" suction_speed="75" supplying_current="8" type="RECIRCULATING_MOTOR"/>
+       </MOTORS>
+       <VALVES>
+        <VALVE board_id="55" id="9" valve_type="5"/>
+       </VALVES>
+      </CIRCUIT>
+     </CANISTER>
+    </COLORANT>
+    <COLORANT code="S-58" description="S-58" hex_value="#000000" id="18" min_sim_disp_thr="2.0000" sim_dispensing="true" spec_w="1000" system_colorant_id="18" system_descr="0.00  Minimal GData" system_id="1544522460">
+     <CANISTER barcode="" cur_q="1493.3904" custom_spec_w="0" enabled="false" id="18" layout_positions_id="144" max_q="2500" res_q="300.0000" res_w="500.0000">
+      <CIRCUIT enabled="false" id="18" position_id="144" wire_board_id="69" wire_connector_id="4">
+       <MOTORS>
+        <MOTOR activation_mode="1" default_profile="false" description="Bellows I_PPG" dispensing_algorithm="1" enabled="true" id="114" inter_disp_time="0.0" max_speed="100" max_speed_limit="100" max_user_speed="100" pre_erogation_time="0" profile_UID="@runuGDD`?" pump_size="2" pump_type="10" resolution="5" serial_number="?y4aSo5MU+qW2yuKOjLcFG5cSXrMPqLcSp1oJrH7FluKOjLcFDe0F4bMRpbcUbvJCyy2HfrsSffNP+qW2yC4RrD7Tb9dFDe0FE5MRbv3JM1oGlrMRXv6PWC5ToLtOqLdSbnpBE5MRbvJ3AmZJrrMHiHtS+83FluKTjL4RqDdFDe0FJHdSfvsP+qW2yuKOjLcF3zMRj5cRanpBE5MRbvJ3AmZLXncFKLsSq1YJrrcOb97FlOLOivJ3AmpBJHdSfvsP+qW2yC5TobcRdvJ3AmZJXrMP+0LOo5MRbHNPonpBE5MRbvJ3AmZLXncFIHqGo0JCvy5Cm0pCyyYLXncFDe0FlC5TobcRdvJ3AmpB3nMTpHNPovJ3AmpB19dSXbdFDe0" suction_erogation_delay="0" suction_speed="100" supplying_current="8" theoretical_mpx="640" tinting_threshold="4.0000" type="DOSING_MOTOR" version="1.0" zero_pump="false">
+         <CALIBRATIONS>
+          <CALIBRATION calib_spec_w="1000" creation_ts="2019-01-14T15:57:33" enabled="true" host_name="" id="1" last_modification_ts="2019-01-17T15:45:10" rendering="3" type="0" uid="hoWI3OjgmN">
+           <CAL_TABLE calib_speed="20" change_volume="0.0000" id="1" speed="20">
+            <CAL_POINT disp_quantity="0.0770" disp_steps="68" disp_time="9466" execution_order="11" id="1" repetitions="4" target_quantity="0.0770" target_steps="0" target_type="CC" tolerance="10" use_from="3" use_to="2"/>
+            <CAL_POINT disp_quantity="0.1500" disp_steps="116" disp_time="9594" execution_order="10" id="2" repetitions="4" target_quantity="0.1500" target_steps="0" target_type="CC" tolerance="10" use_from="4" use_to="3"/>
+            <CAL_POINT disp_quantity="0.3000" disp_steps="211" disp_time="9557" execution_order="9" id="3" repetitions="4" target_quantity="0.3000" target_steps="0" target_type="CC" tolerance="10" use_from="5" use_to="4"/>
+            <CAL_POINT disp_quantity="0.7700" disp_steps="508" disp_time="9551" execution_order="8" id="4" repetitions="2" target_quantity="0.7700" target_steps="0" target_type="CC" tolerance="10" use_from="6" use_to="5"/>
+            <CAL_POINT disp_quantity="1.5000" disp_steps="968" disp_time="9661" execution_order="7" id="5" repetitions="2" target_quantity="1.5000" target_steps="0" target_type="CC" tolerance="10" use_from="8" use_to="6"/>
+            <CAL_POINT disp_quantity="3.0000" disp_steps="1913" disp_time="9565" execution_order="6" id="6" repetitions="2" target_quantity="3.0000" target_steps="0" target_type="CC" tolerance="10" use_from="8" use_to="7"/>
+           </CAL_TABLE>
+           <CAL_TABLE calib_speed="100" change_volume="3.0925" id="2" speed="100">
+            <CAL_POINT disp_quantity="3.0723" disp_steps="2000" disp_time="3723" execution_order="5" id="7" repetitions="2" target_quantity="0.0000" target_steps="2000" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="9.9239" disp_steps="6400" disp_time="3692" execution_order="4" id="8" repetitions="2" target_quantity="0.0000" target_steps="6400" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="10.5717" disp_steps="7000" disp_time="6064" execution_order="3" id="9" repetitions="2" target_quantity="0.0000" target_steps="7000" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="19.6292" disp_steps="12800" disp_time="6075" execution_order="2" id="10" repetitions="2" target_quantity="0.0000" target_steps="12800" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="63.2485" disp_steps="41600" disp_time="17531" execution_order="1" id="11" repetitions="2" target_quantity="0.0000" target_steps="41600" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+           </CAL_TABLE>
+          </CALIBRATION>
+         </CALIBRATIONS>
+        </MOTOR>
+        <MOTOR activity="60" enabled="true" id="1" pause="5400" policy="0" resolution="2" speed="100" supplying_current="8" type="STIRRING_MOTOR" wire_board_id="0" wire_connectors_id="0"/>
+        <MOTOR activity="60" enabled="true" id="1" pause="5400" resolution="5" speed="50" suction_speed="75" supplying_current="8" type="RECIRCULATING_MOTOR"/>
+       </MOTORS>
+       <VALVES>
+        <VALVE board_id="55" id="11" valve_type="5"/>
+       </VALVES>
+      </CIRCUIT>
+     </CANISTER>
+    </COLORANT>
+    <COLORANT code="W-75" description="W-75" hex_value="#ffffff" id="21" min_sim_disp_thr="2.0000" sim_dispensing="true" spec_w="2160" system_colorant_id="19" system_descr="0.00  Minimal GData" system_id="1544522460">
+     <CANISTER barcode="" cur_q="2886.6088" custom_spec_w="0" enabled="true" id="19" layout_positions_id="141,146" max_q="5000" res_q="750.0000" res_w="1000.0000">
+      <CIRCUIT enabled="true" id="27" position_id="141" wire_board_id="69" wire_connector_id="1">
+       <MOTORS>
+        <MOTOR activation_mode="1" default_profile="false" description="Bellows I_PPG" dispensing_algorithm="1" enabled="true" id="114" inter_disp_time="0.0" max_speed="100" max_speed_limit="100" max_user_speed="100" pre_erogation_time="0" profile_UID="@runuGDD`?" pump_size="2" pump_type="10" resolution="5" serial_number="?y4aSo5MU+qW2yuKOjLcFG5cSXrMPqLcSp1oJrH7FluKOjLcFDe0F4bMRpbcUbvJCyy2HfrsSffNP+qW2yC4RrD7Tb9dFDe0FE5MRbv3JM1oGlrMRXv6PWC5ToLtOqLdSbnpBE5MRbvJ3AmZJrrMHiHtS+83FluKTjL4RqDdFDe0FJHdSfvsP+qW2yuKOjLcF3zMRj5cRanpBE5MRbvJ3AmZLXncFKLsSq1YJrrcOb97FlOLOivJ3AmpBJHdSfvsP+qW2yC5TobcRdvJ3AmZJXrMP+0LOo5MRbHNPonpBE5MRbvJ3AmZLXncFIHqGo0JCvy5Cm0pCyyYLXncFDe0FlC5TobcRdvJ3AmpB3nMTpHNPovJ3AmpB19dSXbdFDe0" suction_erogation_delay="0" suction_speed="100" supplying_current="8" theoretical_mpx="640" tinting_threshold="4.0000" type="DOSING_MOTOR" version="1.0" zero_pump="false">
+         <CALIBRATIONS>
+          <CALIBRATION calib_spec_w="2160" creation_ts="2019-01-14T17:47:34" enabled="true" host_name="" id="1" last_modification_ts="2019-01-17T15:45:09" rendering="3" type="0" uid="VKgZeuAAjq">
+           <CAL_TABLE calib_speed="20" change_volume="0.0000" id="1" speed="20">
+            <CAL_POINT disp_quantity="0.0770" disp_steps="37" disp_time="9482" execution_order="11" id="1" repetitions="4" target_quantity="0.0770" target_steps="0" target_type="CC" tolerance="10" use_from="3" use_to="2"/>
+            <CAL_POINT disp_quantity="0.1500" disp_steps="69" disp_time="9537" execution_order="10" id="2" repetitions="4" target_quantity="0.1500" target_steps="0" target_type="CC" tolerance="10" use_from="4" use_to="3"/>
+            <CAL_POINT disp_quantity="0.3000" disp_steps="149" disp_time="9575" execution_order="9" id="3" repetitions="4" target_quantity="0.3000" target_steps="0" target_type="CC" tolerance="10" use_from="5" use_to="4"/>
+            <CAL_POINT disp_quantity="0.7700" disp_steps="439" disp_time="9665" execution_order="8" id="4" repetitions="2" target_quantity="0.7700" target_steps="0" target_type="CC" tolerance="10" use_from="6" use_to="5"/>
+            <CAL_POINT disp_quantity="1.5000" disp_steps="894" disp_time="9538" execution_order="7" id="5" repetitions="2" target_quantity="1.5000" target_steps="0" target_type="CC" tolerance="10" use_from="8" use_to="6"/>
+            <CAL_POINT disp_quantity="3.0000" disp_steps="1832" disp_time="9489" execution_order="6" id="6" repetitions="2" target_quantity="3.0000" target_steps="0" target_type="CC" tolerance="10" use_from="8" use_to="7"/>
+           </CAL_TABLE>
+           <CAL_TABLE calib_speed="100" change_volume="3.1620" id="2" speed="100">
+            <CAL_POINT disp_quantity="3.2047" disp_steps="2000" disp_time="3728" execution_order="5" id="7" repetitions="2" target_quantity="0.0000" target_steps="2000" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="10.1657" disp_steps="6400" disp_time="3659" execution_order="4" id="8" repetitions="2" target_quantity="0.0000" target_steps="6400" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="10.8162" disp_steps="7000" disp_time="6002" execution_order="3" id="9" repetitions="2" target_quantity="0.0000" target_steps="7000" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="20.0102" disp_steps="12800" disp_time="6040" execution_order="2" id="10" repetitions="2" target_quantity="0.0000" target_steps="12800" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="64.2220" disp_steps="41600" disp_time="17821" execution_order="1" id="11" repetitions="2" target_quantity="0.0000" target_steps="41600" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+           </CAL_TABLE>
+          </CALIBRATION>
+         </CALIBRATIONS>
+        </MOTOR>
+        <MOTOR activity="60" enabled="true" id="1" pause="5400" policy="0" resolution="2" speed="100" supplying_current="8" type="STIRRING_MOTOR" wire_board_id="0" wire_connectors_id="0"/>
+        <MOTOR activity="60" enabled="true" id="1" pause="5400" resolution="5" speed="50" suction_speed="75" supplying_current="8" type="RECIRCULATING_MOTOR"/>
+       </MOTORS>
+       <VALVES>
+        <VALVE board_id="55" id="8" valve_type="5"/>
+       </VALVES>
+      </CIRCUIT>
+     </CANISTER>
+    </COLORANT>
+    <COLORANT code="S-53" description="S-53" hex_value="#00009b" id="22" min_sim_disp_thr="2.0000" sim_dispensing="true" spec_w="1000" system_colorant_id="22" system_descr="0.00  Minimal GData" system_id="1544522460">
+     <CANISTER barcode="" cur_q="1500.0000" custom_spec_w="0" enabled="false" id="22" layout_positions_id="123" max_q="1500" res_q="300.0000" res_w="400.0000">
+      <CIRCUIT enabled="false" id="21" position_id="123" wire_board_id="67" wire_connector_id="3">
+       <MOTORS>
+        <MOTOR activation_mode="1" default_profile="false" description="Bellows I_PPG" dispensing_algorithm="1" enabled="true" id="114" inter_disp_time="0.0" max_speed="100" max_speed_limit="100" max_user_speed="100" pre_erogation_time="0" profile_UID="@runuGDD`?" pump_size="2" pump_type="10" resolution="5" serial_number="?y4aSo5MU+qW2yuKOjLcFG5cSXrMPqLcSp1oJrH7FluKOjLcFDe0F4bMRpbcUbvJCyy2HfrsSffNP+qW2yC4RrD7Tb9dFDe0FE5MRbv3JM1oGlrMRXv6PWC5ToLtOqLdSbnpBE5MRbvJ3AmZJrrMHiHtS+83FluKTjL4RqDdFDe0FJHdSfvsP+qW2yuKOjLcF3zMRj5cRanpBE5MRbvJ3AmZLXncFKLsSq1YJrrcOb97FlOLOivJ3AmpBJHdSfvsP+qW2yC5TobcRdvJ3AmZJXrMP+0LOo5MRbHNPonpBE5MRbvJ3AmZLXncFIHqGo0JCvy5Cm0pCyyYLXncFDe0FlC5TobcRdvJ3AmpB3nMTpHNPovJ3AmpB19dSXbdFDe0" suction_erogation_delay="0" suction_speed="100" supplying_current="8" theoretical_mpx="640" tinting_threshold="4.0000" type="DOSING_MOTOR" version="1.0" zero_pump="false">
+         <CALIBRATIONS>
+          <CALIBRATION calib_spec_w="1000" creation_ts="2019-01-15T07:35:07" enabled="true" host_name="" id="1" last_modification_ts="2019-01-17T15:45:09" rendering="3" type="0" uid="5pnZJwHPUb">
+           <CAL_TABLE calib_speed="20" change_volume="0.0000" id="1" speed="20">
+            <CAL_POINT disp_quantity="0.0770" disp_steps="70" disp_time="9472" execution_order="11" id="1" repetitions="4" target_quantity="0.0770" target_steps="0" target_type="CC" tolerance="10" use_from="3" use_to="2"/>
+            <CAL_POINT disp_quantity="0.1500" disp_steps="117" disp_time="9567" execution_order="10" id="2" repetitions="4" target_quantity="0.1500" target_steps="0" target_type="CC" tolerance="10" use_from="4" use_to="3"/>
+            <CAL_POINT disp_quantity="0.3000" disp_steps="212" disp_time="9469" execution_order="9" id="3" repetitions="4" target_quantity="0.3000" target_steps="0" target_type="CC" tolerance="10" use_from="5" use_to="4"/>
+            <CAL_POINT disp_quantity="0.7700" disp_steps="507" disp_time="9529" execution_order="8" id="4" repetitions="2" target_quantity="0.7700" target_steps="0" target_type="CC" tolerance="10" use_from="6" use_to="5"/>
+            <CAL_POINT disp_quantity="1.5000" disp_steps="960" disp_time="9516" execution_order="7" id="5" repetitions="2" target_quantity="1.5000" target_steps="0" target_type="CC" tolerance="10" use_from="8" use_to="6"/>
+            <CAL_POINT disp_quantity="3.0000" disp_steps="1891" disp_time="9524" execution_order="6" id="6" repetitions="2" target_quantity="3.0000" target_steps="0" target_type="CC" tolerance="10" use_from="8" use_to="7"/>
+           </CAL_TABLE>
+           <CAL_TABLE calib_speed="100" change_volume="3.0185" id="2" speed="100">
+            <CAL_POINT disp_quantity="3.0996" disp_steps="2000" disp_time="3619" execution_order="5" id="7" repetitions="2" target_quantity="0.0000" target_steps="2000" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="10.0551" disp_steps="6400" disp_time="3740" execution_order="4" id="8" repetitions="2" target_quantity="0.0000" target_steps="6400" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="10.6777" disp_steps="7000" disp_time="6072" execution_order="3" id="9" repetitions="2" target_quantity="0.0000" target_steps="7000" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="19.8761" disp_steps="12800" disp_time="6034" execution_order="2" id="10" repetitions="2" target_quantity="0.0000" target_steps="12800" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="63.9923" disp_steps="41600" disp_time="17558" execution_order="1" id="11" repetitions="2" target_quantity="0.0000" target_steps="41600" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+           </CAL_TABLE>
+          </CALIBRATION>
+         </CALIBRATIONS>
+        </MOTOR>
+        <MOTOR activity="60" enabled="true" id="1" pause="5400" policy="0" resolution="2" speed="100" supplying_current="8" type="STIRRING_MOTOR" wire_board_id="0" wire_connectors_id="0"/>
+        <MOTOR activity="60" enabled="true" id="1" pause="5400" resolution="5" speed="50" suction_speed="75" supplying_current="8" type="RECIRCULATING_MOTOR"/>
+       </MOTORS>
+       <VALVES>
+        <VALVE board_id="54" id="12" valve_type="5"/>
+       </VALVES>
+      </CIRCUIT>
+     </CANISTER>
+    </COLORANT>
+    <COLORANT code="S-57" description="S-57" hex_value="#f7f700" id="23" min_sim_disp_thr="2.0000" sim_dispensing="true" spec_w="1048" system_colorant_id="23" system_descr="0.00  Minimal GData" system_id="1544522460">
+     <CANISTER barcode="" cur_q="1500.0000" custom_spec_w="0" enabled="false" id="23" layout_positions_id="124" max_q="1500" res_q="300.0000" res_w="400.0000">
+      <CIRCUIT enabled="false" id="22" position_id="124" wire_board_id="67" wire_connector_id="4">
+       <MOTORS>
+        <MOTOR activation_mode="1" default_profile="false" description="Bellows I_PPG" dispensing_algorithm="1" enabled="true" id="114" inter_disp_time="0.0" max_speed="100" max_speed_limit="100" max_user_speed="100" pre_erogation_time="0" profile_UID="@runuGDD`?" pump_size="2" pump_type="10" resolution="5" serial_number="?y4aSo5MU+qW2yuKOjLcFG5cSXrMPqLcSp1oJrH7FluKOjLcFDe0F4bMRpbcUbvJCyy2HfrsSffNP+qW2yC4RrD7Tb9dFDe0FE5MRbv3JM1oGlrMRXv6PWC5ToLtOqLdSbnpBE5MRbvJ3AmZJrrMHiHtS+83FluKTjL4RqDdFDe0FJHdSfvsP+qW2yuKOjLcF3zMRj5cRanpBE5MRbvJ3AmZLXncFKLsSq1YJrrcOb97FlOLOivJ3AmpBJHdSfvsP+qW2yC5TobcRdvJ3AmZJXrMP+0LOo5MRbHNPonpBE5MRbvJ3AmZLXncFIHqGo0JCvy5Cm0pCyyYLXncFDe0FlC5TobcRdvJ3AmpB3nMTpHNPovJ3AmpB19dSXbdFDe0" suction_erogation_delay="0" suction_speed="100" supplying_current="8" theoretical_mpx="640" tinting_threshold="4.0000" type="DOSING_MOTOR" version="1.0" zero_pump="false">
+         <CALIBRATIONS>
+          <CALIBRATION calib_spec_w="1048" creation_ts="2019-01-15T07:43:44" enabled="true" host_name="" id="1" last_modification_ts="2019-01-17T15:45:09" rendering="3" type="0" uid="NEq9z3kwCV">
+           <CAL_TABLE calib_speed="20" change_volume="0.0000" id="1" speed="20">
+            <CAL_POINT disp_quantity="0.0770" disp_steps="66" disp_time="9417" execution_order="11" id="1" repetitions="4" target_quantity="0.0770" target_steps="0" target_type="CC" tolerance="10" use_from="3" use_to="2"/>
+            <CAL_POINT disp_quantity="0.1500" disp_steps="112" disp_time="9587" execution_order="10" id="2" repetitions="4" target_quantity="0.1500" target_steps="0" target_type="CC" tolerance="10" use_from="4" use_to="3"/>
+            <CAL_POINT disp_quantity="0.3000" disp_steps="208" disp_time="9506" execution_order="9" id="3" repetitions="4" target_quantity="0.3000" target_steps="0" target_type="CC" tolerance="10" use_from="5" use_to="4"/>
+            <CAL_POINT disp_quantity="0.7700" disp_steps="510" disp_time="9454" execution_order="8" id="4" repetitions="2" target_quantity="0.7700" target_steps="0" target_type="CC" tolerance="10" use_from="6" use_to="5"/>
+            <CAL_POINT disp_quantity="1.5000" disp_steps="976" disp_time="9513" execution_order="7" id="5" repetitions="2" target_quantity="1.5000" target_steps="0" target_type="CC" tolerance="10" use_from="8" use_to="6"/>
+            <CAL_POINT disp_quantity="3.0000" disp_steps="1934" disp_time="9462" execution_order="6" id="6" repetitions="2" target_quantity="3.0000" target_steps="0" target_type="CC" tolerance="10" use_from="8" use_to="7"/>
+           </CAL_TABLE>
+           <CAL_TABLE calib_speed="100" change_volume="3.0515" id="2" speed="100">
+            <CAL_POINT disp_quantity="3.0833" disp_steps="2000" disp_time="3802" execution_order="5" id="7" repetitions="2" target_quantity="0.0000" target_steps="2000" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="9.8829" disp_steps="6400" disp_time="3693" execution_order="4" id="8" repetitions="2" target_quantity="0.0000" target_steps="6400" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="10.4907" disp_steps="7000" disp_time="6077" execution_order="3" id="9" repetitions="2" target_quantity="0.0000" target_steps="7000" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="19.4755" disp_steps="12800" disp_time="5904" execution_order="2" id="10" repetitions="2" target_quantity="0.0000" target_steps="12800" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="62.5474" disp_steps="41600" disp_time="17541" execution_order="1" id="11" repetitions="2" target_quantity="0.0000" target_steps="41600" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+           </CAL_TABLE>
+          </CALIBRATION>
+         </CALIBRATIONS>
+        </MOTOR>
+        <MOTOR activity="60" enabled="true" id="1" pause="5400" policy="0" resolution="2" speed="100" supplying_current="8" type="STIRRING_MOTOR" wire_board_id="0" wire_connectors_id="0"/>
+        <MOTOR activity="60" enabled="true" id="1" pause="5400" resolution="5" speed="50" suction_speed="75" supplying_current="8" type="RECIRCULATING_MOTOR"/>
+       </MOTORS>
+       <VALVES>
+        <VALVE board_id="54" id="13" valve_type="5"/>
+       </VALVES>
+      </CIRCUIT>
+     </CANISTER>
+    </COLORANT>
+    <COLORANT code="S-62" description="S-62" hex_value="#005500" id="24" min_sim_disp_thr="2.0000" sim_dispensing="true" spec_w="1020" system_colorant_id="24" system_descr="0.00  Minimal GData" system_id="1544522460">
+     <CANISTER barcode="" cur_q="1500.0000" custom_spec_w="0" enabled="false" id="24" layout_positions_id="143" max_q="1500" res_q="300.0000" res_w="400.0000">
+      <CIRCUIT enabled="false" id="28" position_id="143" wire_board_id="69" wire_connector_id="3">
+       <MOTORS>
+        <MOTOR activation_mode="1" default_profile="false" description="Bellows I_PPG" dispensing_algorithm="1" enabled="true" id="114" inter_disp_time="0.0" max_speed="100" max_speed_limit="100" max_user_speed="100" pre_erogation_time="0" profile_UID="@runuGDD`?" pump_size="2" pump_type="10" resolution="5" serial_number="?y4aSo5MU+qW2yuKOjLcFG5cSXrMPqLcSp1oJrH7FluKOjLcFDe0F4bMRpbcUbvJCyy2HfrsSffNP+qW2yC4RrD7Tb9dFDe0FE5MRbv3JM1oGlrMRXv6PWC5ToLtOqLdSbnpBE5MRbvJ3AmZJrrMHiHtS+83FluKTjL4RqDdFDe0FJHdSfvsP+qW2yuKOjLcF3zMRj5cRanpBE5MRbvJ3AmZLXncFKLsSq1YJrrcOb97FlOLOivJ3AmpBJHdSfvsP+qW2yC5TobcRdvJ3AmZJXrMP+0LOo5MRbHNPonpBE5MRbvJ3AmZLXncFIHqGo0JCvy5Cm0pCyyYLXncFDe0FlC5TobcRdvJ3AmpB3nMTpHNPovJ3AmpB19dSXbdFDe0" suction_erogation_delay="0" suction_speed="100" supplying_current="8" theoretical_mpx="640" tinting_threshold="4.0000" type="DOSING_MOTOR" version="1.0" zero_pump="false">
+         <CALIBRATIONS>
+          <CALIBRATION calib_spec_w="1020" creation_ts="2019-01-15T07:52:51" enabled="true" host_name="" id="1" last_modification_ts="2019-01-17T15:45:10" rendering="3" type="0" uid="e1Fdg3BFGx">
+           <CAL_TABLE calib_speed="20" change_volume="0.0000" id="1" speed="20">
+            <CAL_POINT disp_quantity="0.0770" disp_steps="59" disp_time="9538" execution_order="11" id="1" repetitions="4" target_quantity="0.0770" target_steps="0" target_type="CC" tolerance="10" use_from="3" use_to="2"/>
+            <CAL_POINT disp_quantity="0.1500" disp_steps="104" disp_time="9552" execution_order="10" id="2" repetitions="4" target_quantity="0.1500" target_steps="0" target_type="CC" tolerance="10" use_from="4" use_to="3"/>
+            <CAL_POINT disp_quantity="0.3000" disp_steps="196" disp_time="9454" execution_order="9" id="3" repetitions="4" target_quantity="0.3000" target_steps="0" target_type="CC" tolerance="10" use_from="5" use_to="4"/>
+            <CAL_POINT disp_quantity="0.7700" disp_steps="489" disp_time="9465" execution_order="8" id="4" repetitions="2" target_quantity="0.7700" target_steps="0" target_type="CC" tolerance="10" use_from="6" use_to="5"/>
+            <CAL_POINT disp_quantity="1.5000" disp_steps="944" disp_time="9489" execution_order="7" id="5" repetitions="2" target_quantity="1.5000" target_steps="0" target_type="CC" tolerance="10" use_from="8" use_to="6"/>
+            <CAL_POINT disp_quantity="3.0000" disp_steps="1881" disp_time="9577" execution_order="6" id="6" repetitions="2" target_quantity="3.0000" target_steps="0" target_type="CC" tolerance="10" use_from="8" use_to="7"/>
+           </CAL_TABLE>
+           <CAL_TABLE calib_speed="100" change_volume="3.1078" id="2" speed="100">
+            <CAL_POINT disp_quantity="3.1458" disp_steps="2000" disp_time="3674" execution_order="5" id="7" repetitions="2" target_quantity="0.0000" target_steps="2000" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="10.1260" disp_steps="6400" disp_time="3683" execution_order="4" id="8" repetitions="2" target_quantity="0.0000" target_steps="6400" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="10.8586" disp_steps="7000" disp_time="5964" execution_order="3" id="9" repetitions="2" target_quantity="0.0000" target_steps="7000" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="20.0757" disp_steps="12800" disp_time="5997" execution_order="2" id="10" repetitions="2" target_quantity="0.0000" target_steps="12800" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="64.7881" disp_steps="41600" disp_time="17522" execution_order="1" id="11" repetitions="2" target_quantity="0.0000" target_steps="41600" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+           </CAL_TABLE>
+          </CALIBRATION>
+         </CALIBRATIONS>
+        </MOTOR>
+        <MOTOR activity="60" enabled="true" id="1" pause="5400" policy="0" resolution="2" speed="100" supplying_current="8" type="STIRRING_MOTOR" wire_board_id="0" wire_connectors_id="0"/>
+        <MOTOR activity="60" enabled="true" id="1" pause="5400" resolution="5" speed="50" suction_speed="75" supplying_current="8" type="RECIRCULATING_MOTOR"/>
+       </MOTORS>
+       <VALVES>
+        <VALVE board_id="55" id="10" valve_type="5"/>
+       </VALVES>
+      </CIRCUIT>
+     </CANISTER>
+    </COLORANT>
+    <COLORANT code="S-51" description="S-51" hex_value="#29077f" id="25" min_sim_disp_thr="2.0000" sim_dispensing="true" spec_w="982" system_colorant_id="25" system_descr="0.00  Minimal GData" system_id="1544522460">
+     <CANISTER barcode="" cur_q="1360.0000" custom_spec_w="0" enabled="false" id="25" layout_positions_id="125" max_q="1500" res_q="300.0000" res_w="400.0000">
+      <CIRCUIT enabled="false" id="23" position_id="125" wire_board_id="67" wire_connector_id="5">
+       <MOTORS>
+        <MOTOR activation_mode="1" default_profile="false" description="Bellows I_PPG" dispensing_algorithm="1" enabled="true" id="114" inter_disp_time="0.0" max_speed="100" max_speed_limit="100" max_user_speed="100" pre_erogation_time="0" profile_UID="@runuGDD`?" pump_size="2" pump_type="10" resolution="5" serial_number="?y4aSo5MU+qW2yuKOjLcFG5cSXrMPqLcSp1oJrH7FluKOjLcFDe0F4bMRpbcUbvJCyy2HfrsSffNP+qW2yC4RrD7Tb9dFDe0FE5MRbv3JM1oGlrMRXv6PWC5ToLtOqLdSbnpBE5MRbvJ3AmZJrrMHiHtS+83FluKTjL4RqDdFDe0FJHdSfvsP+qW2yuKOjLcF3zMRj5cRanpBE5MRbvJ3AmZLXncFKLsSq1YJrrcOb97FlOLOivJ3AmpBJHdSfvsP+qW2yC5TobcRdvJ3AmZJXrMP+0LOo5MRbHNPonpBE5MRbvJ3AmZLXncFIHqGo0JCvy5Cm0pCyyYLXncFDe0FlC5TobcRdvJ3AmpB3nMTpHNPovJ3AmpB19dSXbdFDe0" suction_erogation_delay="0" suction_speed="100" supplying_current="8" theoretical_mpx="640" tinting_threshold="4.0000" type="DOSING_MOTOR" version="1.0" zero_pump="false">
+         <CALIBRATIONS>
+          <CALIBRATION calib_spec_w="982" creation_ts="2019-01-15T08:01:56" enabled="true" host_name="" id="1" last_modification_ts="2019-01-17T15:45:09" rendering="3" type="0" uid="jKnC9BA7aU">
+           <CAL_TABLE calib_speed="20" change_volume="0.0000" id="1" speed="20">
+            <CAL_POINT disp_quantity="0.0770" disp_steps="70" disp_time="9559" execution_order="11" id="1" repetitions="4" target_quantity="0.0770" target_steps="0" target_type="CC" tolerance="10" use_from="3" use_to="2"/>
+            <CAL_POINT disp_quantity="0.1500" disp_steps="118" disp_time="9545" execution_order="10" id="2" repetitions="4" target_quantity="0.1500" target_steps="0" target_type="CC" tolerance="10" use_from="4" use_to="3"/>
+            <CAL_POINT disp_quantity="0.3000" disp_steps="214" disp_time="9518" execution_order="9" id="3" repetitions="4" target_quantity="0.3000" target_steps="0" target_type="CC" tolerance="10" use_from="5" use_to="4"/>
+            <CAL_POINT disp_quantity="0.7700" disp_steps="510" disp_time="9578" execution_order="8" id="4" repetitions="2" target_quantity="0.7700" target_steps="0" target_type="CC" tolerance="10" use_from="6" use_to="5"/>
+            <CAL_POINT disp_quantity="1.5000" disp_steps="964" disp_time="9598" execution_order="7" id="5" repetitions="2" target_quantity="1.5000" target_steps="0" target_type="CC" tolerance="10" use_from="8" use_to="6"/>
+            <CAL_POINT disp_quantity="3.0000" disp_steps="1898" disp_time="9652" execution_order="6" id="6" repetitions="2" target_quantity="3.0000" target_steps="0" target_type="CC" tolerance="10" use_from="8" use_to="7"/>
+           </CAL_TABLE>
+           <CAL_TABLE calib_speed="100" change_volume="3.0479" id="2" speed="100">
+            <CAL_POINT disp_quantity="3.0567" disp_steps="2000" disp_time="3823" execution_order="5" id="7" repetitions="2" target_quantity="0.0000" target_steps="2000" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="9.9497" disp_steps="6400" disp_time="3714" execution_order="4" id="8" repetitions="2" target_quantity="0.0000" target_steps="6400" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="10.5228" disp_steps="7000" disp_time="6143" execution_order="3" id="9" repetitions="2" target_quantity="0.0000" target_steps="7000" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="19.6418" disp_steps="12800" disp_time="5940" execution_order="2" id="10" repetitions="2" target_quantity="0.0000" target_steps="12800" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="63.1966" disp_steps="41600" disp_time="17546" execution_order="1" id="11" repetitions="2" target_quantity="0.0000" target_steps="41600" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+           </CAL_TABLE>
+          </CALIBRATION>
+         </CALIBRATIONS>
+        </MOTOR>
+        <MOTOR activity="60" enabled="true" id="1" pause="5400" policy="0" resolution="2" speed="100" supplying_current="8" type="STIRRING_MOTOR" wire_board_id="0" wire_connectors_id="0"/>
+        <MOTOR activity="60" enabled="true" id="1" pause="5400" resolution="5" speed="50" suction_speed="75" supplying_current="8" type="RECIRCULATING_MOTOR"/>
+       </MOTORS>
+       <VALVES>
+        <VALVE board_id="54" id="14" valve_type="5"/>
+       </VALVES>
+      </CIRCUIT>
+     </CANISTER>
+    </COLORANT>
+    <COLORANT code="S-66" description="S-66" hex_value="#d16900" id="26" min_sim_disp_thr="2.0000" sim_dispensing="true" spec_w="999" system_colorant_id="26" system_descr="0.00  Minimal GData" system_id="1544522460">
+     <CANISTER barcode="" cur_q="1500.0000" custom_spec_w="0" enabled="false" id="26" layout_positions_id="126" max_q="1500" res_q="300.0000" res_w="400.0000">
+      <CIRCUIT enabled="false" id="24" position_id="126" wire_board_id="67" wire_connector_id="6">
+       <MOTORS>
+        <MOTOR activation_mode="1" default_profile="false" description="Bellows I_PPG" dispensing_algorithm="1" enabled="true" id="114" inter_disp_time="0.0" max_speed="100" max_speed_limit="100" max_user_speed="100" pre_erogation_time="0" profile_UID="@runuGDD`?" pump_size="2" pump_type="10" resolution="5" serial_number="?y4aSo5MU+qW2yuKOjLcFG5cSXrMPqLcSp1oJrH7FluKOjLcFDe0F4bMRpbcUbvJCyy2HfrsSffNP+qW2yC4RrD7Tb9dFDe0FE5MRbv3JM1oGlrMRXv6PWC5ToLtOqLdSbnpBE5MRbvJ3AmZJrrMHiHtS+83FluKTjL4RqDdFDe0FJHdSfvsP+qW2yuKOjLcF3zMRj5cRanpBE5MRbvJ3AmZLXncFKLsSq1YJrrcOb97FlOLOivJ3AmpBJHdSfvsP+qW2yC5TobcRdvJ3AmZJXrMP+0LOo5MRbHNPonpBE5MRbvJ3AmZLXncFIHqGo0JCvy5Cm0pCyyYLXncFDe0FlC5TobcRdvJ3AmpB3nMTpHNPovJ3AmpB19dSXbdFDe0" suction_erogation_delay="0" suction_speed="100" supplying_current="8" theoretical_mpx="640" tinting_threshold="4.0000" type="DOSING_MOTOR" version="1.0" zero_pump="false">
+         <CALIBRATIONS>
+          <CALIBRATION calib_spec_w="999" creation_ts="2019-01-15T08:11:02" enabled="true" host_name="" id="1" last_modification_ts="2019-01-17T15:45:09" rendering="3" type="0" uid="zhqKKuYjED">
+           <CAL_TABLE calib_speed="20" change_volume="0.0000" id="1" speed="20">
+            <CAL_POINT disp_quantity="0.0770" disp_steps="72" disp_time="9582" execution_order="11" id="1" repetitions="4" target_quantity="0.0770" target_steps="0" target_type="CC" tolerance="10" use_from="3" use_to="2"/>
+            <CAL_POINT disp_quantity="0.1500" disp_steps="121" disp_time="9561" execution_order="10" id="2" repetitions="4" target_quantity="0.1500" target_steps="0" target_type="CC" tolerance="10" use_from="4" use_to="3"/>
+            <CAL_POINT disp_quantity="0.3000" disp_steps="219" disp_time="9506" execution_order="9" id="3" repetitions="4" target_quantity="0.3000" target_steps="0" target_type="CC" tolerance="10" use_from="5" use_to="4"/>
+            <CAL_POINT disp_quantity="0.7700" disp_steps="520" disp_time="9600" execution_order="8" id="4" repetitions="2" target_quantity="0.7700" target_steps="0" target_type="CC" tolerance="10" use_from="6" use_to="5"/>
+            <CAL_POINT disp_quantity="1.5000" disp_steps="983" disp_time="9548" execution_order="7" id="5" repetitions="2" target_quantity="1.5000" target_steps="0" target_type="CC" tolerance="10" use_from="8" use_to="6"/>
+            <CAL_POINT disp_quantity="3.0000" disp_steps="1936" disp_time="9582" execution_order="6" id="6" repetitions="2" target_quantity="3.0000" target_steps="0" target_type="CC" tolerance="10" use_from="8" use_to="7"/>
+           </CAL_TABLE>
+           <CAL_TABLE calib_speed="100" change_volume="2.9925" id="2" speed="100">
+            <CAL_POINT disp_quantity="3.0039" disp_steps="2000" disp_time="3740" execution_order="5" id="7" repetitions="2" target_quantity="0.0000" target_steps="2000" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="9.7969" disp_steps="6400" disp_time="3755" execution_order="4" id="8" repetitions="2" target_quantity="0.0000" target_steps="6400" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="10.3700" disp_steps="7000" disp_time="5888" execution_order="3" id="9" repetitions="2" target_quantity="0.0000" target_steps="7000" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="19.3518" disp_steps="12800" disp_time="6042" execution_order="2" id="10" repetitions="2" target_quantity="0.0000" target_steps="12800" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="62.2467" disp_steps="41600" disp_time="17503" execution_order="1" id="11" repetitions="2" target_quantity="0.0000" target_steps="41600" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+           </CAL_TABLE>
+          </CALIBRATION>
+         </CALIBRATIONS>
+        </MOTOR>
+        <MOTOR activity="60" enabled="true" id="1" pause="5400" policy="0" resolution="2" speed="100" supplying_current="8" type="STIRRING_MOTOR" wire_board_id="0" wire_connectors_id="0"/>
+        <MOTOR activity="60" enabled="true" id="1" pause="5400" resolution="5" speed="50" suction_speed="75" supplying_current="8" type="RECIRCULATING_MOTOR"/>
+       </MOTORS>
+       <VALVES>
+        <VALVE board_id="54" id="15" valve_type="5"/>
+       </VALVES>
+      </CIRCUIT>
+     </CANISTER>
+    </COLORANT>
+    <COLORANT code="S-52" description="S-52" hex_value="#980000" id="27" min_sim_disp_thr="2.0000" sim_dispensing="true" spec_w="1030" system_colorant_id="27" system_descr="0.00  Minimal GData" system_id="1544522460">
+     <CANISTER barcode="" cur_q="1360.0000" custom_spec_w="0" enabled="false" id="27" layout_positions_id="145" max_q="1500" res_q="300.0000" res_w="400.0000">
+      <CIRCUIT enabled="false" id="29" position_id="145" wire_board_id="69" wire_connector_id="5">
+       <MOTORS>
+        <MOTOR activation_mode="1" default_profile="false" description="Bellows I_PPG" dispensing_algorithm="1" enabled="true" id="114" inter_disp_time="0.0" max_speed="100" max_speed_limit="100" max_user_speed="100" pre_erogation_time="0" profile_UID="@runuGDD`?" pump_size="2" pump_type="10" resolution="5" serial_number="?y4aSo5MU+qW2yuKOjLcFG5cSXrMPqLcSp1oJrH7FluKOjLcFDe0F4bMRpbcUbvJCyy2HfrsSffNP+qW2yC4RrD7Tb9dFDe0FE5MRbv3JM1oGlrMRXv6PWC5ToLtOqLdSbnpBE5MRbvJ3AmZJrrMHiHtS+83FluKTjL4RqDdFDe0FJHdSfvsP+qW2yuKOjLcF3zMRj5cRanpBE5MRbvJ3AmZLXncFKLsSq1YJrrcOb97FlOLOivJ3AmpBJHdSfvsP+qW2yC5TobcRdvJ3AmZJXrMP+0LOo5MRbHNPonpBE5MRbvJ3AmZLXncFIHqGo0JCvy5Cm0pCyyYLXncFDe0FlC5TobcRdvJ3AmpB3nMTpHNPovJ3AmpB19dSXbdFDe0" suction_erogation_delay="0" suction_speed="100" supplying_current="8" theoretical_mpx="640" tinting_threshold="4.0000" type="DOSING_MOTOR" version="1.0" zero_pump="false">
+         <CALIBRATIONS>
+          <CALIBRATION calib_spec_w="1030" creation_ts="2019-01-15T08:19:38" enabled="true" host_name="" id="1" last_modification_ts="2019-01-17T15:45:10" rendering="3" type="0" uid="YzVPix5OeH">
+           <CAL_TABLE calib_speed="20" change_volume="0.0000" id="1" speed="20">
+            <CAL_POINT disp_quantity="0.0770" disp_steps="63" disp_time="9577" execution_order="11" id="1" repetitions="4" target_quantity="0.0770" target_steps="0" target_type="CC" tolerance="10" use_from="3" use_to="2"/>
+            <CAL_POINT disp_quantity="0.1500" disp_steps="107" disp_time="9612" execution_order="10" id="2" repetitions="4" target_quantity="0.1500" target_steps="0" target_type="CC" tolerance="10" use_from="4" use_to="3"/>
+            <CAL_POINT disp_quantity="0.3000" disp_steps="199" disp_time="9574" execution_order="9" id="3" repetitions="4" target_quantity="0.3000" target_steps="0" target_type="CC" tolerance="10" use_from="5" use_to="4"/>
+            <CAL_POINT disp_quantity="0.7700" disp_steps="490" disp_time="9528" execution_order="8" id="4" repetitions="2" target_quantity="0.7700" target_steps="0" target_type="CC" tolerance="10" use_from="6" use_to="5"/>
+            <CAL_POINT disp_quantity="1.5000" disp_steps="940" disp_time="9608" execution_order="7" id="5" repetitions="2" target_quantity="1.5000" target_steps="0" target_type="CC" tolerance="10" use_from="8" use_to="6"/>
+            <CAL_POINT disp_quantity="3.0000" disp_steps="1866" disp_time="9525" execution_order="6" id="6" repetitions="2" target_quantity="3.0000" target_steps="0" target_type="CC" tolerance="10" use_from="8" use_to="7"/>
+           </CAL_TABLE>
+           <CAL_TABLE calib_speed="100" change_volume="3.0985" id="2" speed="100">
+            <CAL_POINT disp_quantity="3.1867" disp_steps="2000" disp_time="3711" execution_order="5" id="7" repetitions="2" target_quantity="0.0000" target_steps="2000" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="10.1815" disp_steps="6400" disp_time="3892" execution_order="4" id="8" repetitions="2" target_quantity="0.0000" target_steps="6400" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="10.7854" disp_steps="7000" disp_time="6025" execution_order="3" id="9" repetitions="2" target_quantity="0.0000" target_steps="7000" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="20.0370" disp_steps="12800" disp_time="6096" execution_order="2" id="10" repetitions="2" target_quantity="0.0000" target_steps="12800" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="64.2851" disp_steps="41600" disp_time="17691" execution_order="1" id="11" repetitions="2" target_quantity="0.0000" target_steps="41600" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+           </CAL_TABLE>
+          </CALIBRATION>
+         </CALIBRATIONS>
+        </MOTOR>
+        <MOTOR activity="60" enabled="true" id="1" pause="5400" policy="0" resolution="2" speed="100" supplying_current="8" type="STIRRING_MOTOR" wire_board_id="0" wire_connectors_id="0"/>
+        <MOTOR activity="60" enabled="true" id="1" pause="5400" resolution="5" speed="50" suction_speed="75" supplying_current="8" type="RECIRCULATING_MOTOR"/>
+       </MOTORS>
+       <VALVES>
+        <VALVE board_id="55" id="12" valve_type="5"/>
+       </VALVES>
+      </CIRCUIT>
+     </CANISTER>
+    </COLORANT>
+    <COLORANT code="S-68" description="S-68" hex_value="#550000" id="28" min_sim_disp_thr="2.0000" sim_dispensing="true" spec_w="1820" system_colorant_id="28" system_descr="0.00  Minimal GData" system_id="1544522460">
+     <CANISTER barcode="" cur_q="950.0000" custom_spec_w="0" enabled="false" id="28" layout_positions_id="127" max_q="1500" res_q="300.0000" res_w="400.0000">
+      <CIRCUIT enabled="false" id="25" position_id="127" wire_board_id="67" wire_connector_id="7">
+       <MOTORS>
+        <MOTOR activation_mode="1" default_profile="false" description="Bellows I_PPG" dispensing_algorithm="1" enabled="true" id="114" inter_disp_time="0.0" max_speed="100" max_speed_limit="100" max_user_speed="100" pre_erogation_time="0" profile_UID="@runuGDD`?" pump_size="2" pump_type="10" resolution="5" serial_number="?y4aSo5MU+qW2yuKOjLcFG5cSXrMPqLcSp1oJrH7FluKOjLcFDe0F4bMRpbcUbvJCyy2HfrsSffNP+qW2yC4RrD7Tb9dFDe0FE5MRbv3JM1oGlrMRXv6PWC5ToLtOqLdSbnpBE5MRbvJ3AmZJrrMHiHtS+83FluKTjL4RqDdFDe0FJHdSfvsP+qW2yuKOjLcF3zMRj5cRanpBE5MRbvJ3AmZLXncFKLsSq1YJrrcOb97FlOLOivJ3AmpBJHdSfvsP+qW2yC5TobcRdvJ3AmZJXrMP+0LOo5MRbHNPonpBE5MRbvJ3AmZLXncFIHqGo0JCvy5Cm0pCyyYLXncFDe0FlC5TobcRdvJ3AmpB3nMTpHNPovJ3AmpB19dSXbdFDe0" suction_erogation_delay="0" suction_speed="100" supplying_current="8" theoretical_mpx="640" tinting_threshold="4.0000" type="DOSING_MOTOR" version="1.0" zero_pump="false">
+         <CALIBRATIONS>
+          <CALIBRATION calib_spec_w="1820" creation_ts="2019-01-15T08:28:52" enabled="true" host_name="" id="1" last_modification_ts="2019-01-17T15:45:09" rendering="3" type="0" uid="FaFGJfpDxX">
+           <CAL_TABLE calib_speed="20" change_volume="0.0000" id="1" speed="20">
+            <CAL_POINT disp_quantity="0.0770" disp_steps="66" disp_time="9600" execution_order="11" id="1" repetitions="4" target_quantity="0.0770" target_steps="0" target_type="CC" tolerance="10" use_from="3" use_to="2"/>
+            <CAL_POINT disp_quantity="0.1500" disp_steps="111" disp_time="9561" execution_order="10" id="2" repetitions="4" target_quantity="0.1500" target_steps="0" target_type="CC" tolerance="10" use_from="4" use_to="3"/>
+            <CAL_POINT disp_quantity="0.3000" disp_steps="205" disp_time="9570" execution_order="9" id="3" repetitions="4" target_quantity="0.3000" target_steps="0" target_type="CC" tolerance="10" use_from="5" use_to="4"/>
+            <CAL_POINT disp_quantity="0.7700" disp_steps="497" disp_time="9459" execution_order="8" id="4" repetitions="2" target_quantity="0.7700" target_steps="0" target_type="CC" tolerance="10" use_from="6" use_to="5"/>
+            <CAL_POINT disp_quantity="1.5000" disp_steps="951" disp_time="9558" execution_order="7" id="5" repetitions="2" target_quantity="1.5000" target_steps="0" target_type="CC" tolerance="10" use_from="8" use_to="6"/>
+            <CAL_POINT disp_quantity="3.0000" disp_steps="1885" disp_time="9600" execution_order="6" id="6" repetitions="2" target_quantity="3.0000" target_steps="0" target_type="CC" tolerance="10" use_from="8" use_to="7"/>
+           </CAL_TABLE>
+           <CAL_TABLE calib_speed="100" change_volume="3.0865" id="2" speed="100">
+            <CAL_POINT disp_quantity="3.1195" disp_steps="2000" disp_time="3583" execution_order="5" id="7" repetitions="2" target_quantity="0.0000" target_steps="2000" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="10.0612" disp_steps="6400" disp_time="3684" execution_order="4" id="8" repetitions="2" target_quantity="0.0000" target_steps="6400" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="10.6787" disp_steps="7000" disp_time="6073" execution_order="3" id="9" repetitions="2" target_quantity="0.0000" target_steps="7000" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="19.8577" disp_steps="12800" disp_time="6039" execution_order="2" id="10" repetitions="2" target_quantity="0.0000" target_steps="12800" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="63.8538" disp_steps="41600" disp_time="17532" execution_order="1" id="11" repetitions="2" target_quantity="0.0000" target_steps="41600" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+           </CAL_TABLE>
+          </CALIBRATION>
+         </CALIBRATIONS>
+        </MOTOR>
+        <MOTOR activity="60" enabled="true" id="1" pause="5400" policy="0" resolution="2" speed="100" supplying_current="8" type="STIRRING_MOTOR" wire_board_id="0" wire_connectors_id="0"/>
+        <MOTOR activity="60" enabled="true" id="1" pause="5400" resolution="5" speed="50" suction_speed="75" supplying_current="8" type="RECIRCULATING_MOTOR"/>
+       </MOTORS>
+       <VALVES>
+        <VALVE board_id="54" id="16" valve_type="5"/>
+       </VALVES>
+      </CIRCUIT>
+     </CANISTER>
+    </COLORANT>
+    <COLORANT code="S-65" description="S-65" hex_value="#670041" id="29" min_sim_disp_thr="2.0000" sim_dispensing="true" spec_w="964" system_colorant_id="29" system_descr="0.00  Minimal GData" system_id="1544522460">
+     <CANISTER barcode="" cur_q="1360.0000" custom_spec_w="0" enabled="false" id="29" layout_positions_id="128" max_q="1500" res_q="300.0000" res_w="400.0000">
+      <CIRCUIT enabled="false" id="26" position_id="128" wire_board_id="67" wire_connector_id="8">
+       <MOTORS>
+        <MOTOR activation_mode="1" default_profile="false" description="Bellows I_PPG" dispensing_algorithm="1" enabled="true" id="114" inter_disp_time="0.0" max_speed="100" max_speed_limit="100" max_user_speed="100" pre_erogation_time="0" profile_UID="@runuGDD`?" pump_size="2" pump_type="10" resolution="5" serial_number="?y4aSo5MU+qW2yuKOjLcFG5cSXrMPqLcSp1oJrH7FluKOjLcFDe0F4bMRpbcUbvJCyy2HfrsSffNP+qW2yC4RrD7Tb9dFDe0FE5MRbv3JM1oGlrMRXv6PWC5ToLtOqLdSbnpBE5MRbvJ3AmZJrrMHiHtS+83FluKTjL4RqDdFDe0FJHdSfvsP+qW2yuKOjLcF3zMRj5cRanpBE5MRbvJ3AmZLXncFKLsSq1YJrrcOb97FlOLOivJ3AmpBJHdSfvsP+qW2yC5TobcRdvJ3AmZJXrMP+0LOo5MRbHNPonpBE5MRbvJ3AmZLXncFIHqGo0JCvy5Cm0pCyyYLXncFDe0FlC5TobcRdvJ3AmpB3nMTpHNPovJ3AmpB19dSXbdFDe0" suction_erogation_delay="0" suction_speed="100" supplying_current="8" theoretical_mpx="640" tinting_threshold="4.0000" type="DOSING_MOTOR" version="1.0" zero_pump="false">
+         <CALIBRATIONS>
+          <CALIBRATION calib_spec_w="964" creation_ts="2019-01-15T08:52:04" enabled="true" host_name="" id="1" last_modification_ts="2019-01-17T15:45:09" rendering="3" type="0" uid="GhNmMQl0G1">
+           <CAL_TABLE calib_speed="20" change_volume="0.0000" id="1" speed="20">
+            <CAL_POINT disp_quantity="0.0770" disp_steps="57" disp_time="9563" execution_order="11" id="1" repetitions="4" target_quantity="0.0770" target_steps="0" target_type="CC" tolerance="10" use_from="3" use_to="2"/>
+            <CAL_POINT disp_quantity="0.1500" disp_steps="99" disp_time="9602" execution_order="10" id="2" repetitions="4" target_quantity="0.1500" target_steps="0" target_type="CC" tolerance="10" use_from="4" use_to="3"/>
+            <CAL_POINT disp_quantity="0.3000" disp_steps="187" disp_time="9584" execution_order="9" id="3" repetitions="4" target_quantity="0.3000" target_steps="0" target_type="CC" tolerance="10" use_from="5" use_to="4"/>
+            <CAL_POINT disp_quantity="0.7700" disp_steps="477" disp_time="9340" execution_order="8" id="4" repetitions="2" target_quantity="0.7700" target_steps="0" target_type="CC" tolerance="10" use_from="6" use_to="5"/>
+            <CAL_POINT disp_quantity="1.5000" disp_steps="929" disp_time="9490" execution_order="7" id="5" repetitions="2" target_quantity="1.5000" target_steps="0" target_type="CC" tolerance="10" use_from="8" use_to="6"/>
+            <CAL_POINT disp_quantity="3.0000" disp_steps="1860" disp_time="9473" execution_order="6" id="6" repetitions="2" target_quantity="3.0000" target_steps="0" target_type="CC" tolerance="10" use_from="8" use_to="7"/>
+           </CAL_TABLE>
+           <CAL_TABLE calib_speed="100" change_volume="3.1172" id="2" speed="100">
+            <CAL_POINT disp_quantity="3.1937" disp_steps="2000" disp_time="3769" execution_order="5" id="7" repetitions="2" target_quantity="0.0000" target_steps="2000" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="10.2136" disp_steps="6400" disp_time="3715" execution_order="4" id="8" repetitions="2" target_quantity="0.0000" target_steps="6400" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="10.8421" disp_steps="7000" disp_time="6120" execution_order="3" id="9" repetitions="2" target_quantity="0.0000" target_steps="7000" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="20.1163" disp_steps="12800" disp_time="6005" execution_order="2" id="10" repetitions="2" target_quantity="0.0000" target_steps="12800" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="64.5612" disp_steps="41600" disp_time="17621" execution_order="1" id="11" repetitions="2" target_quantity="0.0000" target_steps="41600" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+           </CAL_TABLE>
+          </CALIBRATION>
+         </CALIBRATIONS>
+        </MOTOR>
+        <MOTOR activity="60" enabled="true" id="1" pause="5400" policy="0" resolution="2" speed="100" supplying_current="8" type="STIRRING_MOTOR" wire_board_id="0" wire_connectors_id="0"/>
+        <MOTOR activity="60" enabled="true" id="1" pause="5400" resolution="5" speed="50" suction_speed="75" supplying_current="8" type="RECIRCULATING_MOTOR"/>
+       </MOTORS>
+       <VALVES>
+        <VALVE board_id="54" id="17" valve_type="5"/>
+       </VALVES>
+      </CIRCUIT>
+     </CANISTER>
+    </COLORANT>
+    <COLORANT code="S-61" description="S-61" hex_value="#ffff00" id="30" min_sim_disp_thr="2.0000" sim_dispensing="true" spec_w="1580" system_colorant_id="30" system_descr="0.00  Minimal GData" system_id="1544522460">
+     <CANISTER barcode="" cur_q="950.0000" custom_spec_w="0" enabled="false" id="30" layout_positions_id="147" max_q="1500" res_q="300.0000" res_w="400.0000">
+      <CIRCUIT enabled="false" id="30" position_id="147" wire_board_id="69" wire_connector_id="7">
+       <MOTORS>
+        <MOTOR activation_mode="1" default_profile="false" description="Bellows I_PPG" dispensing_algorithm="1" enabled="true" id="114" inter_disp_time="0.0" max_speed="100" max_speed_limit="100" max_user_speed="100" pre_erogation_time="0" profile_UID="@runuGDD`?" pump_size="2" pump_type="10" resolution="5" serial_number="?y4aSo5MU+qW2yuKOjLcFG5cSXrMPqLcSp1oJrH7FluKOjLcFDe0F4bMRpbcUbvJCyy2HfrsSffNP+qW2yC4RrD7Tb9dFDe0FE5MRbv3JM1oGlrMRXv6PWC5ToLtOqLdSbnpBE5MRbvJ3AmZJrrMHiHtS+83FluKTjL4RqDdFDe0FJHdSfvsP+qW2yuKOjLcF3zMRj5cRanpBE5MRbvJ3AmZLXncFKLsSq1YJrrcOb97FlOLOivJ3AmpBJHdSfvsP+qW2yC5TobcRdvJ3AmZJXrMP+0LOo5MRbHNPonpBE5MRbvJ3AmZLXncFIHqGo0JCvy5Cm0pCyyYLXncFDe0FlC5TobcRdvJ3AmpB3nMTpHNPovJ3AmpB19dSXbdFDe0" suction_erogation_delay="0" suction_speed="100" supplying_current="8" theoretical_mpx="640" tinting_threshold="4.0000" type="DOSING_MOTOR" version="1.0" zero_pump="false">
+         <CALIBRATIONS>
+          <CALIBRATION calib_spec_w="1580" creation_ts="2019-01-15T09:08:00" enabled="true" host_name="" id="1" last_modification_ts="2019-01-17T15:45:10" rendering="3" type="0" uid="NQrUKWOegb">
+           <CAL_TABLE calib_speed="20" change_volume="0.0000" id="1" speed="20">
+            <CAL_POINT disp_quantity="0.0770" disp_steps="59" disp_time="9514" execution_order="11" id="1" repetitions="4" target_quantity="0.0770" target_steps="0" target_type="CC" tolerance="10" use_from="3" use_to="2"/>
+            <CAL_POINT disp_quantity="0.1500" disp_steps="103" disp_time="9542" execution_order="10" id="2" repetitions="4" target_quantity="0.1500" target_steps="0" target_type="CC" tolerance="10" use_from="4" use_to="3"/>
+            <CAL_POINT disp_quantity="0.3000" disp_steps="194" disp_time="9382" execution_order="9" id="3" repetitions="4" target_quantity="0.3000" target_steps="0" target_type="CC" tolerance="10" use_from="5" use_to="4"/>
+            <CAL_POINT disp_quantity="0.7700" disp_steps="487" disp_time="9484" execution_order="8" id="4" repetitions="2" target_quantity="0.7700" target_steps="0" target_type="CC" tolerance="10" use_from="6" use_to="5"/>
+            <CAL_POINT disp_quantity="1.5000" disp_steps="944" disp_time="9519" execution_order="7" id="5" repetitions="2" target_quantity="1.5000" target_steps="0" target_type="CC" tolerance="10" use_from="8" use_to="6"/>
+            <CAL_POINT disp_quantity="3.0000" disp_steps="1885" disp_time="9454" execution_order="6" id="6" repetitions="2" target_quantity="3.0000" target_steps="0" target_type="CC" tolerance="10" use_from="8" use_to="7"/>
+           </CAL_TABLE>
+           <CAL_TABLE calib_speed="100" change_volume="3.0930" id="2" speed="100">
+            <CAL_POINT disp_quantity="3.1341" disp_steps="2000" disp_time="3854" execution_order="5" id="7" repetitions="2" target_quantity="0.0000" target_steps="2000" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="10.0238" disp_steps="6400" disp_time="3724" execution_order="4" id="8" repetitions="2" target_quantity="0.0000" target_steps="6400" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="10.6654" disp_steps="7000" disp_time="5950" execution_order="3" id="9" repetitions="2" target_quantity="0.0000" target_steps="7000" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="19.7733" disp_steps="12800" disp_time="6102" execution_order="2" id="10" repetitions="2" target_quantity="0.0000" target_steps="12800" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="63.5903" disp_steps="41600" disp_time="17542" execution_order="1" id="11" repetitions="2" target_quantity="0.0000" target_steps="41600" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+           </CAL_TABLE>
+          </CALIBRATION>
+         </CALIBRATIONS>
+        </MOTOR>
+        <MOTOR activity="60" enabled="true" id="1" pause="5400" policy="0" resolution="2" speed="100" supplying_current="8" type="STIRRING_MOTOR" wire_board_id="0" wire_connectors_id="0"/>
+        <MOTOR activity="60" enabled="true" id="1" pause="5400" resolution="5" speed="50" suction_speed="75" supplying_current="8" type="RECIRCULATING_MOTOR"/>
+       </MOTORS>
+       <VALVES>
+        <VALVE board_id="55" id="13" valve_type="5"/>
+       </VALVES>
+      </CIRCUIT>
+     </CANISTER>
+    </COLORANT>
+    <COLORANT code="W-72" description="W-72" hex_value="#da0000" id="31" min_sim_disp_thr="2.0000" sim_dispensing="true" spec_w="1260" system_colorant_id="31" system_descr="0.00  Minimal GData" system_id="1544522460">
+     <CANISTER barcode="" cur_q="653.4601" custom_spec_w="0" enabled="true" id="31" layout_positions_id="129" max_q="1500" res_q="300.0000" res_w="400.0000">
+      <CIRCUIT enabled="true" id="31" position_id="129" wire_board_id="67" wire_connector_id="9">
+       <MOTORS>
+        <MOTOR activation_mode="1" default_profile="false" description="Bellows I_PPG" dispensing_algorithm="1" enabled="true" id="114" inter_disp_time="0.0" max_speed="100" max_speed_limit="100" max_user_speed="100" pre_erogation_time="0" profile_UID="@runuGDD`?" pump_size="2" pump_type="10" resolution="5" serial_number="?y4aSo5MU+qW2yuKOjLcFG5cSXrMPqLcSp1oJrH7FluKOjLcFDe0F4bMRpbcUbvJCyy2HfrsSffNP+qW2yC4RrD7Tb9dFDe0FE5MRbv3JM1oGlrMRXv6PWC5ToLtOqLdSbnpBE5MRbvJ3AmZJrrMHiHtS+83FluKTjL4RqDdFDe0FJHdSfvsP+qW2yuKOjLcF3zMRj5cRanpBE5MRbvJ3AmZLXncFKLsSq1YJrrcOb97FlOLOivJ3AmpBJHdSfvsP+qW2yC5TobcRdvJ3AmZJXrMP+0LOo5MRbHNPonpBE5MRbvJ3AmZLXncFIHqGo0JCvy5Cm0pCyyYLXncFDe0FlC5TobcRdvJ3AmpB3nMTpHNPovJ3AmpB19dSXbdFDe0" suction_erogation_delay="0" suction_speed="100" supplying_current="8" theoretical_mpx="640" tinting_threshold="4.0000" type="DOSING_MOTOR" version="1.0" zero_pump="false">
+         <CALIBRATIONS>
+          <CALIBRATION calib_spec_w="1260" creation_ts="2019-01-14T08:39:23" enabled="true" host_name="" id="1" last_modification_ts="2019-01-17T15:45:09" rendering="3" type="0" uid="Yg7h0uvDO4">
+           <CAL_TABLE calib_speed="0" change_volume="0.0000" id="1" speed="20">
+            <CAL_POINT disp_quantity="0.0770" disp_steps="37" disp_time="9497" execution_order="11" id="1" repetitions="4" target_quantity="0.0770" target_steps="0" target_type="CC" tolerance="10" use_from="3" use_to="2"/>
+            <CAL_POINT disp_quantity="0.1500" disp_steps="72" disp_time="9507" execution_order="10" id="2" repetitions="4" target_quantity="0.1500" target_steps="0" target_type="CC" tolerance="10" use_from="4" use_to="3"/>
+            <CAL_POINT disp_quantity="0.3000" disp_steps="157" disp_time="9468" execution_order="9" id="3" repetitions="4" target_quantity="0.3000" target_steps="0" target_type="CC" tolerance="10" use_from="5" use_to="4"/>
+            <CAL_POINT disp_quantity="0.7700" disp_steps="450" disp_time="9567" execution_order="8" id="4" repetitions="2" target_quantity="0.7700" target_steps="0" target_type="CC" tolerance="10" use_from="6" use_to="5"/>
+            <CAL_POINT disp_quantity="1.5000" disp_steps="910" disp_time="9592" execution_order="7" id="5" repetitions="2" target_quantity="1.5000" target_steps="0" target_type="CC" tolerance="10" use_from="8" use_to="6"/>
+            <CAL_POINT disp_quantity="3.0000" disp_steps="1858" disp_time="9455" execution_order="6" id="6" repetitions="2" target_quantity="3.0000" target_steps="0" target_type="CC" tolerance="10" use_from="8" use_to="7"/>
+           </CAL_TABLE>
+           <CAL_TABLE calib_speed="0" change_volume="2.0000" id="2" speed="100">
+            <CAL_POINT disp_quantity="3.1375" disp_steps="2000" disp_time="3729" execution_order="5" id="7" repetitions="2" target_quantity="0.0000" target_steps="2000" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="10.0621" disp_steps="6400" disp_time="3748" execution_order="4" id="8" repetitions="2" target_quantity="0.0000" target_steps="6400" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="10.6993" disp_steps="7000" disp_time="5994" execution_order="3" id="9" repetitions="2" target_quantity="0.0000" target_steps="7000" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="19.8490" disp_steps="12800" disp_time="6009" execution_order="2" id="10" repetitions="2" target_quantity="0.0000" target_steps="12800" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="63.7769" disp_steps="41600" disp_time="17513" execution_order="1" id="11" repetitions="2" target_quantity="0.0000" target_steps="41600" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+           </CAL_TABLE>
+          </CALIBRATION>
+         </CALIBRATIONS>
+        </MOTOR>
+        <MOTOR activity="60" enabled="true" id="1" pause="5400" policy="0" resolution="2" speed="100" supplying_current="8" type="STIRRING_MOTOR" wire_board_id="0" wire_connectors_id="0"/>
+        <MOTOR activity="60" enabled="true" id="1" pause="5400" resolution="5" speed="50" suction_speed="75" supplying_current="8" type="RECIRCULATING_MOTOR"/>
+       </MOTORS>
+       <VALVES>
+        <VALVE board_id="54" id="18" valve_type="5"/>
+       </VALVES>
+      </CIRCUIT>
+     </CANISTER>
+    </COLORANT>
+    <COLORANT code="W-10" description="W-10" hex_value="#2f2f2f" id="3" min_sim_disp_thr="2.0000" sim_dispensing="true" spec_w="1374" system_colorant_id="4" system_descr="0.00  Minimal GData" system_id="1544522460">
+     <CANISTER barcode="" cur_q="1912.7652" custom_spec_w="0" enabled="true" id="4" layout_positions_id="111" max_q="2500" res_q="300.0000" res_w="500.0000">
+      <CIRCUIT enabled="true" id="3" position_id="111" wire_board_id="66" wire_connector_id="1">
+       <MOTORS>
+        <MOTOR activation_mode="1" default_profile="false" description="Bellows I_PPG" dispensing_algorithm="1" enabled="true" id="114" inter_disp_time="0.0" max_speed="100" max_speed_limit="100" max_user_speed="100" pre_erogation_time="0" profile_UID="@runuGDD`?" pump_size="2" pump_type="10" resolution="5" serial_number="?y4aSo5MU+qW2yuKOjLcFG5cSXrMPqLcSp1oJrH7FluKOjLcFDe0F4bMRpbcUbvJCyy2HfrsSffNP+qW2yC4RrD7Tb9dFDe0FE5MRbv3JM1oGlrMRXv6PWC5ToLtOqLdSbnpBE5MRbvJ3AmZJrrMHiHtS+83FluKTjL4RqDdFDe0FJHdSfvsP+qW2yuKOjLcF3zMRj5cRanpBE5MRbvJ3AmZLXncFKLsSq1YJrrcOb97FlOLOivJ3AmpBJHdSfvsP+qW2yC5TobcRdvJ3AmZJXrMP+0LOo5MRbHNPonpBE5MRbvJ3AmZLXncFIHqGo0JCvy5Cm0pCyyYLXncFDe0FlC5TobcRdvJ3AmpB3nMTpHNPovJ3AmpB19dSXbdFDe0" suction_erogation_delay="0" suction_speed="100" supplying_current="8" theoretical_mpx="640" tinting_threshold="4.0000" type="DOSING_MOTOR" version="1.0" zero_pump="false">
+         <CALIBRATIONS>
+          <CALIBRATION calib_spec_w="1374" creation_ts="2019-01-14T13:23:49" enabled="true" host_name="" id="1" last_modification_ts="2019-01-17T15:45:09" rendering="3" type="0" uid="otaDzOOxKa">
+           <CAL_TABLE calib_speed="20" change_volume="0.0000" id="1" speed="20">
+            <CAL_POINT disp_quantity="0.0770" disp_steps="56" disp_time="9532" execution_order="11" id="1" repetitions="4" target_quantity="0.0770" target_steps="0" target_type="CC" tolerance="10" use_from="3" use_to="2"/>
+            <CAL_POINT disp_quantity="0.1500" disp_steps="100" disp_time="9441" execution_order="10" id="2" repetitions="4" target_quantity="0.1500" target_steps="0" target_type="CC" tolerance="10" use_from="4" use_to="3"/>
+            <CAL_POINT disp_quantity="0.3000" disp_steps="192" disp_time="9418" execution_order="9" id="3" repetitions="4" target_quantity="0.3000" target_steps="0" target_type="CC" tolerance="10" use_from="5" use_to="4"/>
+            <CAL_POINT disp_quantity="0.7700" disp_steps="482" disp_time="9552" execution_order="8" id="4" repetitions="2" target_quantity="0.7700" target_steps="0" target_type="CC" tolerance="10" use_from="6" use_to="5"/>
+            <CAL_POINT disp_quantity="1.5000" disp_steps="935" disp_time="9527" execution_order="7" id="5" repetitions="2" target_quantity="1.5000" target_steps="0" target_type="CC" tolerance="10" use_from="8" use_to="6"/>
+            <CAL_POINT disp_quantity="3.0000" disp_steps="1865" disp_time="9569" execution_order="6" id="6" repetitions="2" target_quantity="3.0000" target_steps="0" target_type="CC" tolerance="10" use_from="8" use_to="7"/>
+           </CAL_TABLE>
+           <CAL_TABLE calib_speed="100" change_volume="3.1590" id="2" speed="100">
+            <CAL_POINT disp_quantity="3.1654" disp_steps="2000" disp_time="3737" execution_order="5" id="7" repetitions="2" target_quantity="0.0000" target_steps="2000" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="10.1770" disp_steps="6400" disp_time="3926" execution_order="4" id="8" repetitions="2" target_quantity="0.0000" target_steps="6400" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="10.8172" disp_steps="7000" disp_time="6010" execution_order="3" id="9" repetitions="2" target_quantity="0.0000" target_steps="7000" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="20.0789" disp_steps="12800" disp_time="6023" execution_order="2" id="10" repetitions="2" target_quantity="0.0000" target_steps="12800" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="64.5464" disp_steps="41600" disp_time="17591" execution_order="1" id="11" repetitions="2" target_quantity="0.0000" target_steps="41600" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+           </CAL_TABLE>
+          </CALIBRATION>
+         </CALIBRATIONS>
+        </MOTOR>
+        <MOTOR activity="60" enabled="true" id="1" pause="5400" policy="0" resolution="2" speed="100" supplying_current="8" type="STIRRING_MOTOR" wire_board_id="0" wire_connectors_id="0"/>
+        <MOTOR activity="60" enabled="true" id="1" pause="5400" resolution="5" speed="50" suction_speed="75" supplying_current="8" type="RECIRCULATING_MOTOR"/>
+       </MOTORS>
+       <VALVES>
+        <VALVE board_id="54" id="1" valve_type="5"/>
+       </VALVES>
+      </CIRCUIT>
+     </CANISTER>
+    </COLORANT>
+    <COLORANT code="W-74" description="W-74" hex_value="#b5971d" id="4" min_sim_disp_thr="2.0000" sim_dispensing="true" spec_w="1940" system_colorant_id="5" system_descr="0.00  Minimal GData" system_id="1544522460">
+     <CANISTER barcode="" cur_q="1060.4215" custom_spec_w="0" enabled="true" id="5" layout_positions_id="112" max_q="2500" res_q="300.0000" res_w="500.0000">
+      <CIRCUIT enabled="true" id="4" position_id="112" wire_board_id="66" wire_connector_id="2">
+       <MOTORS>
+        <MOTOR activation_mode="1" default_profile="false" description="Bellows I_PPG" dispensing_algorithm="1" enabled="true" id="114" inter_disp_time="0.0" max_speed="100" max_speed_limit="100" max_user_speed="100" pre_erogation_time="0" profile_UID="@runuGDD`?" pump_size="2" pump_type="10" resolution="5" serial_number="?y4aSo5MU+qW2yuKOjLcFG5cSXrMPqLcSp1oJrH7FluKOjLcFDe0F4bMRpbcUbvJCyy2HfrsSffNP+qW2yC4RrD7Tb9dFDe0FE5MRbv3JM1oGlrMRXv6PWC5ToLtOqLdSbnpBE5MRbvJ3AmZJrrMHiHtS+83FluKTjL4RqDdFDe0FJHdSfvsP+qW2yuKOjLcF3zMRj5cRanpBE5MRbvJ3AmZLXncFKLsSq1YJrrcOb97FlOLOivJ3AmpBJHdSfvsP+qW2yC5TobcRdvJ3AmZJXrMP+0LOo5MRbHNPonpBE5MRbvJ3AmZLXncFIHqGo0JCvy5Cm0pCyyYLXncFDe0FlC5TobcRdvJ3AmpB3nMTpHNPovJ3AmpB19dSXbdFDe0" suction_erogation_delay="0" suction_speed="100" supplying_current="8" theoretical_mpx="640" tinting_threshold="4.0000" type="DOSING_MOTOR" version="1.0" zero_pump="false">
+         <CALIBRATIONS>
+          <CALIBRATION calib_spec_w="1940" creation_ts="2019-01-14T13:35:58" enabled="true" host_name="" id="1" last_modification_ts="2019-01-17T15:45:09" rendering="3" type="0" uid="v0w6oviedE">
+           <CAL_TABLE calib_speed="20" change_volume="0.0000" id="1" speed="20">
+            <CAL_POINT disp_quantity="0.0770" disp_steps="29" disp_time="9550" execution_order="11" id="1" repetitions="4" target_quantity="0.0770" target_steps="0" target_type="CC" tolerance="10" use_from="3" use_to="2"/>
+            <CAL_POINT disp_quantity="0.1500" disp_steps="52" disp_time="9550" execution_order="10" id="2" repetitions="4" target_quantity="0.1500" target_steps="0" target_type="CC" tolerance="10" use_from="4" use_to="3"/>
+            <CAL_POINT disp_quantity="0.3000" disp_steps="117" disp_time="9575" execution_order="9" id="3" repetitions="4" target_quantity="0.3000" target_steps="0" target_type="CC" tolerance="10" use_from="5" use_to="4"/>
+            <CAL_POINT disp_quantity="0.7700" disp_steps="402" disp_time="9523" execution_order="8" id="4" repetitions="2" target_quantity="0.7700" target_steps="0" target_type="CC" tolerance="10" use_from="6" use_to="5"/>
+            <CAL_POINT disp_quantity="1.5000" disp_steps="864" disp_time="9468" execution_order="7" id="5" repetitions="2" target_quantity="1.5000" target_steps="0" target_type="CC" tolerance="10" use_from="8" use_to="6"/>
+            <CAL_POINT disp_quantity="3.0000" disp_steps="1819" disp_time="9579" execution_order="6" id="6" repetitions="2" target_quantity="3.0000" target_steps="0" target_type="CC" tolerance="10" use_from="8" use_to="7"/>
+           </CAL_TABLE>
+           <CAL_TABLE calib_speed="100" change_volume="3.2000" id="2" speed="100">
+            <CAL_POINT disp_quantity="3.2455" disp_steps="2000" disp_time="3601" execution_order="5" id="7" repetitions="2" target_quantity="0.0000" target_steps="2000" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="10.0827" disp_steps="6400" disp_time="3799" execution_order="4" id="8" repetitions="2" target_quantity="0.0000" target_steps="6400" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="10.7210" disp_steps="7000" disp_time="6020" execution_order="3" id="9" repetitions="2" target_quantity="0.0000" target_steps="7000" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="19.7526" disp_steps="12800" disp_time="5967" execution_order="2" id="10" repetitions="2" target_quantity="0.0000" target_steps="12800" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="63.1729" disp_steps="41600" disp_time="17713" execution_order="1" id="11" repetitions="2" target_quantity="0.0000" target_steps="41600" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+           </CAL_TABLE>
+          </CALIBRATION>
+         </CALIBRATIONS>
+        </MOTOR>
+        <MOTOR activity="60" enabled="true" id="1" pause="5400" policy="0" resolution="2" speed="100" supplying_current="8" type="STIRRING_MOTOR" wire_board_id="0" wire_connectors_id="0"/>
+        <MOTOR activity="60" enabled="true" id="1" pause="5400" resolution="5" speed="50" suction_speed="75" supplying_current="8" type="RECIRCULATING_MOTOR"/>
+       </MOTORS>
+       <VALVES>
+        <VALVE board_id="54" id="2" valve_type="5"/>
+       </VALVES>
+      </CIRCUIT>
+     </CANISTER>
+    </COLORANT>
+    <COLORANT code="S-54" description="S-54" hex_value="#aa6c09" id="19" min_sim_disp_thr="2.0000" sim_dispensing="true" spec_w="1475" system_colorant_id="20" system_descr="0.00  Minimal GData" system_id="1544522460">
+     <CANISTER barcode="" cur_q="1517.6559" custom_spec_w="0" enabled="false" id="20" layout_positions_id="121" max_q="2500" res_q="300.0000" res_w="500.0000">
+      <CIRCUIT enabled="false" id="19" position_id="121" wire_board_id="67" wire_connector_id="1">
+       <MOTORS>
+        <MOTOR activation_mode="1" default_profile="false" description="Bellows I_PPG" dispensing_algorithm="1" enabled="true" id="114" inter_disp_time="0.0" max_speed="100" max_speed_limit="100" max_user_speed="100" pre_erogation_time="0" profile_UID="@runuGDD`?" pump_size="2" pump_type="10" resolution="5" serial_number="?y4aSo5MU+qW2yuKOjLcFG5cSXrMPqLcSp1oJrH7FluKOjLcFDe0F4bMRpbcUbvJCyy2HfrsSffNP+qW2yC4RrD7Tb9dFDe0FE5MRbv3JM1oGlrMRXv6PWC5ToLtOqLdSbnpBE5MRbvJ3AmZJrrMHiHtS+83FluKTjL4RqDdFDe0FJHdSfvsP+qW2yuKOjLcF3zMRj5cRanpBE5MRbvJ3AmZLXncFKLsSq1YJrrcOb97FlOLOivJ3AmpBJHdSfvsP+qW2yC5TobcRdvJ3AmZJXrMP+0LOo5MRbHNPonpBE5MRbvJ3AmZLXncFIHqGo0JCvy5Cm0pCyyYLXncFDe0FlC5TobcRdvJ3AmpB3nMTpHNPovJ3AmpB19dSXbdFDe0" suction_erogation_delay="0" suction_speed="100" supplying_current="8" theoretical_mpx="640" tinting_threshold="4.0000" type="DOSING_MOTOR" version="1.0" zero_pump="false">
+         <CALIBRATIONS>
+          <CALIBRATION calib_spec_w="1475" creation_ts="2019-01-14T18:13:30" enabled="true" host_name="" id="1" last_modification_ts="2019-01-17T15:45:09" rendering="3" type="0" uid="r9zZDX06Nu">
+           <CAL_TABLE calib_speed="20" change_volume="0.0000" id="1" speed="20">
+            <CAL_POINT disp_quantity="0.0770" disp_steps="56" disp_time="9606" execution_order="11" id="1" repetitions="4" target_quantity="0.0770" target_steps="0" target_type="CC" tolerance="10" use_from="3" use_to="2"/>
+            <CAL_POINT disp_quantity="0.1500" disp_steps="99" disp_time="9479" execution_order="10" id="2" repetitions="4" target_quantity="0.1500" target_steps="0" target_type="CC" tolerance="10" use_from="4" use_to="3"/>
+            <CAL_POINT disp_quantity="0.3000" disp_steps="190" disp_time="9483" execution_order="9" id="3" repetitions="4" target_quantity="0.3000" target_steps="0" target_type="CC" tolerance="10" use_from="5" use_to="4"/>
+            <CAL_POINT disp_quantity="0.7700" disp_steps="485" disp_time="9417" execution_order="8" id="4" repetitions="2" target_quantity="0.7700" target_steps="0" target_type="CC" tolerance="10" use_from="6" use_to="5"/>
+            <CAL_POINT disp_quantity="1.5000" disp_steps="946" disp_time="9682" execution_order="7" id="5" repetitions="2" target_quantity="1.5000" target_steps="0" target_type="CC" tolerance="10" use_from="8" use_to="6"/>
+            <CAL_POINT disp_quantity="3.0000" disp_steps="1895" disp_time="9427" execution_order="6" id="6" repetitions="2" target_quantity="3.0000" target_steps="0" target_type="CC" tolerance="10" use_from="8" use_to="7"/>
+           </CAL_TABLE>
+           <CAL_TABLE calib_speed="100" change_volume="3.0627" id="2" speed="100">
+            <CAL_POINT disp_quantity="3.0991" disp_steps="2000" disp_time="3717" execution_order="5" id="7" repetitions="2" target_quantity="0.0000" target_steps="2000" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="9.9729" disp_steps="6400" disp_time="3770" execution_order="4" id="8" repetitions="2" target_quantity="0.0000" target_steps="6400" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="10.6740" disp_steps="7000" disp_time="6036" execution_order="3" id="9" repetitions="2" target_quantity="0.0000" target_steps="7000" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="19.7526" disp_steps="12800" disp_time="5957" execution_order="2" id="10" repetitions="2" target_quantity="0.0000" target_steps="12800" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="63.6942" disp_steps="41600" disp_time="17580" execution_order="1" id="11" repetitions="2" target_quantity="0.0000" target_steps="41600" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+           </CAL_TABLE>
+          </CALIBRATION>
+         </CALIBRATIONS>
+        </MOTOR>
+        <MOTOR activity="60" enabled="true" id="1" pause="5400" policy="0" resolution="2" speed="100" supplying_current="8" type="STIRRING_MOTOR" wire_board_id="0" wire_connectors_id="0"/>
+        <MOTOR activity="60" enabled="true" id="1" pause="5400" resolution="5" speed="50" suction_speed="75" supplying_current="8" type="RECIRCULATING_MOTOR"/>
+       </MOTORS>
+       <VALVES>
+        <VALVE board_id="54" id="10" valve_type="5"/>
+       </VALVES>
+      </CIRCUIT>
+     </CANISTER>
+    </COLORANT>
+    <COLORANT code="S-67" description="S-67" hex_value="#8a300d" id="20" min_sim_disp_thr="2.0000" sim_dispensing="true" spec_w="1390" system_colorant_id="21" system_descr="0.00  Minimal GData" system_id="1544522460">
+     <CANISTER barcode="" cur_q="1526.9000" custom_spec_w="0" enabled="false" id="21" layout_positions_id="122" max_q="2500" res_q="300.0000" res_w="500.0000">
+      <CIRCUIT enabled="false" id="20" position_id="122" wire_board_id="67" wire_connector_id="2">
+       <MOTORS>
+        <MOTOR activation_mode="1" default_profile="false" description="Bellows I_PPG" dispensing_algorithm="1" enabled="true" id="114" inter_disp_time="0.0" max_speed="100" max_speed_limit="100" max_user_speed="100" pre_erogation_time="0" profile_UID="@runuGDD`?" pump_size="2" pump_type="10" resolution="5" serial_number="?y4aSo5MU+qW2yuKOjLcFG5cSXrMPqLcSp1oJrH7FluKOjLcFDe0F4bMRpbcUbvJCyy2HfrsSffNP+qW2yC4RrD7Tb9dFDe0FE5MRbv3JM1oGlrMRXv6PWC5ToLtOqLdSbnpBE5MRbvJ3AmZJrrMHiHtS+83FluKTjL4RqDdFDe0FJHdSfvsP+qW2yuKOjLcF3zMRj5cRanpBE5MRbvJ3AmZLXncFKLsSq1YJrrcOb97FlOLOivJ3AmpBJHdSfvsP+qW2yC5TobcRdvJ3AmZJXrMP+0LOo5MRbHNPonpBE5MRbvJ3AmZLXncFIHqGo0JCvy5Cm0pCyyYLXncFDe0FlC5TobcRdvJ3AmpB3nMTpHNPovJ3AmpB19dSXbdFDe0" suction_erogation_delay="0" suction_speed="100" supplying_current="8" theoretical_mpx="640" tinting_threshold="4.0000" type="DOSING_MOTOR" version="1.0" zero_pump="false">
+         <CALIBRATIONS>
+          <CALIBRATION calib_spec_w="1390" creation_ts="2019-01-14T18:01:05" enabled="true" host_name="" id="1" last_modification_ts="2019-01-17T15:45:09" rendering="3" type="0" uid="Z2trnAtIEZ">
+           <CAL_TABLE calib_speed="20" change_volume="0.0000" id="1" speed="20">
+            <CAL_POINT disp_quantity="0.0770" disp_steps="65" disp_time="9493" execution_order="11" id="1" repetitions="4" target_quantity="0.0770" target_steps="0" target_type="CC" tolerance="10" use_from="3" use_to="2"/>
+            <CAL_POINT disp_quantity="0.1500" disp_steps="111" disp_time="9432" execution_order="10" id="2" repetitions="4" target_quantity="0.1500" target_steps="0" target_type="CC" tolerance="10" use_from="4" use_to="3"/>
+            <CAL_POINT disp_quantity="0.3000" disp_steps="205" disp_time="9465" execution_order="9" id="3" repetitions="4" target_quantity="0.3000" target_steps="0" target_type="CC" tolerance="10" use_from="5" use_to="4"/>
+            <CAL_POINT disp_quantity="0.7700" disp_steps="500" disp_time="9532" execution_order="8" id="4" repetitions="2" target_quantity="0.7700" target_steps="0" target_type="CC" tolerance="10" use_from="6" use_to="5"/>
+            <CAL_POINT disp_quantity="1.5000" disp_steps="957" disp_time="9561" execution_order="7" id="5" repetitions="2" target_quantity="1.5000" target_steps="0" target_type="CC" tolerance="10" use_from="8" use_to="6"/>
+            <CAL_POINT disp_quantity="3.0000" disp_steps="1899" disp_time="9458" execution_order="6" id="6" repetitions="2" target_quantity="3.0000" target_steps="0" target_type="CC" tolerance="10" use_from="8" use_to="7"/>
+           </CAL_TABLE>
+           <CAL_TABLE calib_speed="100" change_volume="3.0417" id="2" speed="100">
+            <CAL_POINT disp_quantity="3.0648" disp_steps="2000" disp_time="3771" execution_order="5" id="7" repetitions="2" target_quantity="0.0000" target_steps="2000" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="9.9979" disp_steps="6400" disp_time="3589" execution_order="4" id="8" repetitions="2" target_quantity="0.0000" target_steps="6400" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="10.6808" disp_steps="7000" disp_time="6138" execution_order="3" id="9" repetitions="2" target_quantity="0.0000" target_steps="7000" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="19.8364" disp_steps="12800" disp_time="5962" execution_order="2" id="10" repetitions="2" target_quantity="0.0000" target_steps="12800" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+            <CAL_POINT disp_quantity="64.0390" disp_steps="41600" disp_time="17516" execution_order="1" id="11" repetitions="2" target_quantity="0.0000" target_steps="41600" target_type="STEPS" tolerance="-1" use_from="-1" use_to="-1"/>
+           </CAL_TABLE>
+          </CALIBRATION>
+         </CALIBRATIONS>
+        </MOTOR>
+        <MOTOR activity="60" enabled="true" id="1" pause="5400" policy="0" resolution="2" speed="100" supplying_current="8" type="STIRRING_MOTOR" wire_board_id="0" wire_connectors_id="0"/>
+        <MOTOR activity="60" enabled="true" id="1" pause="5400" resolution="5" speed="50" suction_speed="75" supplying_current="8" type="RECIRCULATING_MOTOR"/>
+       </MOTORS>
+       <VALVES>
+        <VALVE board_id="54" id="11" valve_type="5"/>
+       </VALVES>
+      </CIRCUIT>
+     </CANISTER>
+    </COLORANT>
+   </LAYOUT>
+  </DISPENSER>
+ </DISPENSERS>
+</CONFIGURATION>
