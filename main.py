@@ -102,7 +102,7 @@ def handle_host(host):
                 f.write(doc.toxml())
 
         # Sending the file
-        execute_command(ssh, "/usr/lib/evodriver/bin/EVOlocal/config/configuration.xml")
+        execute_command(ssh, " rm -rf /usr/lib/evodriver/bin/EVOlocal/config/configuration.xml")
 
         # Upload template
         xml_file_content = open(xml_path, 'rb').read()
