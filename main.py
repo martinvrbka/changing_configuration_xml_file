@@ -17,7 +17,7 @@ PASSWORD = '123456'
 NUM_THREADS = 8
 list_lock = Lock()
 write_lock = Lock()
-
+# Not ready it seems it doubles the values probably adding them where they should not be :/
 
 xml_path = os.path.dirname(os.path.realpath(__file__)) + "\configuration.xml"
 print(xml_path)
