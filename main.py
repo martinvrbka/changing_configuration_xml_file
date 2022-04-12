@@ -101,6 +101,8 @@ def handle_host(host):
                                             print e
                 f.write(doc.toxml())
 
+        # Sending the file
+
 
     except Exception as e:
         print(e)
