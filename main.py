@@ -44,6 +44,8 @@ def handle_host(host):
         channel.setblocking(1)
         channel.settimeout(30)
 
+        sftp_client = ssh.open_sftp()
+
         # Init SCP
         scp = SCPClient(transport)
         print "init ok"
@@ -102,6 +104,15 @@ def handle_host(host):
                 f.write(doc.toxml())
 
         # Sending the file
+        execute_command(ssh, "rm -rf /home/ig/Deso/rcc/templates/Intergamma.fr3")
+
+        # Upload template
+        template_content = open(xml_path, 'rb').read()
+        with sftp_client.open(r'/usr/lib/evodriver/bin/EVOlocal/config/configuration.xml', 'wb') as f:
+            f.write(template_content)
+
+        # Deletes sending PC xml file
+        os.remove(xml_path)
 
 
     except Exception as e:
