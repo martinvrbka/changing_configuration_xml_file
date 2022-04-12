@@ -19,8 +19,6 @@ list_lock = Lock()
 write_lock = Lock()
 
 
-with open("configuration.xml", "w") as fp:
-    pass
 xml_path = os.path.dirname(os.path.realpath(__file__)) + "\configuration.xml"
 print(xml_path)
 
@@ -104,12 +102,12 @@ def handle_host(host):
                 f.write(doc.toxml())
 
         # Sending the file
-        execute_command(ssh, "rm -rf /home/ig/Deso/rcc/templates/Intergamma.fr3")
+        execute_command(ssh, "/usr/lib/evodriver/bin/EVOlocal/config/configuration.xml")
 
         # Upload template
-        template_content = open(xml_path, 'rb').read()
+        xml_file_content = open(xml_path, 'rb').read()
         with sftp_client.open(r'/usr/lib/evodriver/bin/EVOlocal/config/configuration.xml', 'wb') as f:
-            f.write(template_content)
+            f.write(xml_file_content)
 
         # Deletes sending PC xml file
         os.remove(xml_path)
