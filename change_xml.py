@@ -28,7 +28,7 @@ with open (r"configuration.xml", "w") as f:
                             motor.attributes['activity'].value = "60"
                             activity.append(motor.attributes['activity'].value)
                         except Exception as e:
-                            print e
+                            print(e)
     f.write(doc.toxml())
 
 print(policy)

@@ -23,5 +23,5 @@ with open (r"configuration.xml", "w") as f:
                             motor.attributes['pause'].value = "5400"
                             motor.attributes['activity'].value = "60"
                         except Exception as e:
-                            print e
+                            print(e)
     f.write(doc.toxml())
